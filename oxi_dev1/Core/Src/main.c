@@ -110,8 +110,6 @@ int main(void)
   HAL_ADCEx_Calibration_Start(&hadc1);
 
 	ssd1306_Init();
-	ssd1306_WriteString("Init Done!", Font_16x26, White);
-	ssd1306_UpdateScreen();
 
 	while(MPU6050_Init(&hi2c1) == 1);
 
@@ -125,6 +123,7 @@ int main(void)
 
 	int adcount = 0;
 	uint32_t ntcavg = 0 , adctemp = 0;
+  uint32_t millis = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -151,7 +150,7 @@ int main(void)
 		/*printf("-------------------------------------------------------------------------------------\r\n");
 		printf("                                   MPU6050                                           \r\n");
 		printf("-------------------------------------------------------------------------------------\r\n");*/
-		printf("Accel Raw : %u\t%u\t%u\r\n" , MPU6050.Accel_X_RAW , MPU6050.Accel_Y_RAW , MPU6050.Accel_Z_RAW);
+		printf("Accel Raw : %f\t%f\t%f\r\n" , MPU6050.Ax , MPU6050.Ay , MPU6050.Az);
 
 		/*printf("-------------------------------------------------------------------------------------\r\n");
 		printf("                                  MAX30100                                           \r\n");
@@ -177,7 +176,11 @@ int main(void)
 		ssd1306_WriteString(mpus[1] , Font_7x10, White);
 		ssd1306_SetCursor(86 , 52);
 		ssd1306_WriteString(mpus[2] , Font_7x10, White);
-		ssd1306_UpdateScreen();
+    if(HAL_GetTick() - millis > 100)
+    {
+      millis = HAL_GetTick();
+      ssd1306_UpdateScreen();
+    }
 		/*printf("Scanning I2C bus:\r\n");
 		HAL_StatusTypeDef result1;
 		HAL_StatusTypeDef result2;

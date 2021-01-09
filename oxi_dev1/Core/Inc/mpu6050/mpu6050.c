@@ -50,7 +50,6 @@
 // Setup MPU6050
 #define MPU6050_ADDR 0xD0
 const uint16_t i2c_timeout = 100;
-const double Accel_Z_corrector = 14418.0;
 
 uint32_t timer;
 
@@ -120,7 +119,7 @@ void MPU6050_Read_Accel(I2C_HandleTypeDef *I2Cx, MPU6050_t *DataStruct) {
 
     DataStruct->Ax = DataStruct->Accel_X_RAW / 16384.0;
     DataStruct->Ay = DataStruct->Accel_Y_RAW / 16384.0;
-    DataStruct->Az = DataStruct->Accel_Z_RAW / Accel_Z_corrector;
+    DataStruct->Az = DataStruct->Accel_Z_RAW / 16384.0;
 }
 
 
@@ -175,7 +174,7 @@ void MPU6050_Read_All(I2C_HandleTypeDef *I2Cx, MPU6050_t *DataStruct) {
 
     DataStruct->Ax = DataStruct->Accel_X_RAW / 16384.0;
     DataStruct->Ay = DataStruct->Accel_Y_RAW / 16384.0;
-    DataStruct->Az = DataStruct->Accel_Z_RAW / Accel_Z_corrector;
+    DataStruct->Az = DataStruct->Accel_Z_RAW / 16384.0;
     DataStruct->Temperature = (float) ((int16_t) temp / (float) 340.0 + (float) 36.53);
     DataStruct->Gx = DataStruct->Gyro_X_RAW / 131.0;
     DataStruct->Gy = DataStruct->Gyro_Y_RAW / 131.0;

@@ -7,6 +7,10 @@
 
 void ssd1306_Reset(void) {
     /* for I2C - do nothing */
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_15, GPIO_PIN_RESET);
+    HAL_Delay(10);
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_15, GPIO_PIN_SET);
+    HAL_Delay(10);
 }
 
 // Send a byte to the command register
@@ -97,8 +101,6 @@ void ssd1306_Init(void) {
 
     ssd1306_WriteCommand(0x40); //--set start line address - CHECK
 
-    ssd1306_SetContrast(0xFF);
-
 #ifdef SSD1306_MIRROR_HORIZ
     ssd1306_WriteCommand(0xA0); // Mirror horizontally
 #else
@@ -140,6 +142,8 @@ void ssd1306_Init(void) {
     ssd1306_WriteCommand(0xD9); //--set pre-charge period
     ssd1306_WriteCommand(0xF1); //
 
+    ssd1306_SetContrast(0xCF);
+
     ssd1306_WriteCommand(0xDA); //--set com pins hardware configuration - CHECK
 #if (SSD1306_HEIGHT == 32)
     ssd1306_WriteCommand(0x02);
@@ -150,6 +154,7 @@ void ssd1306_Init(void) {
 #else
 #error "Only 32, 64, or 128 lines of height are supported!"
 #endif
+
 
     ssd1306_WriteCommand(0xDB); //--set vcomh
     ssd1306_WriteCommand(0x40); //0x20,0.77xVcc
