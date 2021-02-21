@@ -60,8 +60,30 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define BUILTIN_LED_Pin GPIO_PIN_7
 #define BUILTIN_LED_GPIO_Port GPIOA
+#define PWR_OLED_Pin GPIO_PIN_0
+#define PWR_OLED_GPIO_Port GPIOB
 #define OLED_RES_Pin GPIO_PIN_1
 #define OLED_RES_GPIO_Port GPIOB
+#define PWR_BLE_Pin GPIO_PIN_2
+#define PWR_BLE_GPIO_Port GPIOB
+#define DAC_3_Pin GPIO_PIN_10
+#define DAC_3_GPIO_Port GPIOB
+#define KEY_1_Pin GPIO_PIN_11
+#define KEY_1_GPIO_Port GPIOA
+#define KEY_2_Pin GPIO_PIN_12
+#define KEY_2_GPIO_Port GPIOA
+#define SDI_Pin GPIO_PIN_3
+#define SDI_GPIO_Port GPIOB
+#define SCK_Pin GPIO_PIN_4
+#define SCK_GPIO_Port GPIOB
+#define SDA_Pin GPIO_PIN_5
+#define SDA_GPIO_Port GPIOB
+#define SCL_Pin GPIO_PIN_6
+#define SCL_GPIO_Port GPIOB
+#define DAC_1_Pin GPIO_PIN_8
+#define DAC_1_GPIO_Port GPIOB
+#define DAC_2_Pin GPIO_PIN_9
+#define DAC_2_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

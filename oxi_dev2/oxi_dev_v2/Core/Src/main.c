@@ -23,6 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
+#include "i2c_sw\i2c_sw.h"
 #include "ssd1306/ssd1306.h"
 /* USER CODE END Includes */
 
@@ -33,6 +34,16 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define GPIO_SW_SPI_SDI_PIN       SDI_GPIO_Port
+#define GPIO_SW_SPI_SCK_PIN       SCK_GPIO_Port
+#define GPIO_SW_SPI_SDI           SDI_Pin
+#define GPIO_SW_SPI_SCK           SCK_Pin
+
+#define PD_N      0b00
+#define PD_1K     0b01
+#define PD_100K   0b10
+#define PD_Z      0b11
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -44,8 +55,6 @@
 ADC_HandleTypeDef hadc1;
 ADC_HandleTypeDef hadc2;
 
-I2C_HandleTypeDef hi2c1;
-
 SPI_HandleTypeDef hspi2;
 
 TIM_HandleTypeDef htim2;
@@ -54,7 +63,43 @@ UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
+void spi_w(uint8_t byte)
+{
+  for (int i = 0x80; i != 0x00; i >>= 1) 
+  {
+    HAL_GPIO_WritePin(SCK_GPIO_Port, SCK_Pin, GPIO_PIN_RESET);
+    if (byte & i)
+      HAL_GPIO_WritePin(SDI_GPIO_Port, SDI_Pin, GPIO_PIN_SET);
+    else 
+      HAL_GPIO_WritePin(SDI_GPIO_Port, SDI_Pin, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(SCK_GPIO_Port, SCK_Pin, GPIO_PIN_SET);
+  }
+}
 
+void dac_w(uint8_t cmd , uint16_t data)
+{
+  uint8_t buf[3];
+  buf[0] = (data >> 12) | (cmd << 4);
+  buf[1] = (data >> 4);
+  buf[2] = ((data << 4) & 0xF0);
+  for(int i = 0 ; i < 3 ; i++)
+    spi_w(buf[i]);
+}
+
+void dac_wu(uint16_t data)
+{
+  dac_w(0b0011 , data);
+}
+
+void dac_ctrl(uint8_t PD ,uint8_t REF ,uint8_t GAIN ,uint8_t DCEN)
+{
+  dac_w(0b0100 , (PD << 4 | REF << 2 | GAIN << 1 | DCEN) << 10);
+}
+
+void dac_res()
+{
+  dac_w(0b0100 , 1 << 15);
+}
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -62,11 +107,10 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_ADC1_Init(void);
 static void MX_ADC2_Init(void);
-static void MX_I2C1_Init(void);
-static void MX_SPI2_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_USART1_UART_Init(void);
 static void MX_USART2_UART_Init(void);
+static void MX_SPI2_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -105,18 +149,26 @@ int main(void)
   MX_GPIO_Init();
   MX_ADC1_Init();
   MX_ADC2_Init();
-  MX_I2C1_Init();
-  MX_SPI2_Init();
   MX_TIM2_Init();
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
+  MX_SPI2_Init();
   /* USER CODE BEGIN 2 */
   HAL_ADCEx_Calibration_Start(&hadc1);
+
   uint32_t millis = 0;
-  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_SET);
-  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_SET);
-  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_10, GPIO_PIN_SET);
-  ssd1306_Init();
+  HAL_GPIO_WritePin(DAC_1_GPIO_Port, DAC_1_Pin, GPIO_PIN_RESET);
+  dac_ctrl(PD_N , 1 , 1 , 0);
+  HAL_GPIO_WritePin(DAC_1_GPIO_Port, DAC_1_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DAC_2_GPIO_Port, DAC_2_Pin, GPIO_PIN_RESET);
+  dac_ctrl(PD_N , 1 , 1 , 0);
+  HAL_GPIO_WritePin(DAC_2_GPIO_Port, DAC_2_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DAC_3_GPIO_Port, DAC_3_Pin, GPIO_PIN_RESET);
+  dac_ctrl(PD_N , 1 , 1 , 0);
+  HAL_GPIO_WritePin(DAC_3_GPIO_Port, DAC_3_Pin, GPIO_PIN_SET);
+  /*SW_I2C_initial();
+  i2c_port_initial(SW_I2C1);
+  ssd1306_Init();*/
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -126,16 +178,50 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    ssd1306_Fill(Black);
-		ssd1306_SetCursor(0  ,  0);
-    //char out[100];
-    //sprintf(out , "%i" , SSD1306_BUFFER_SIZE);
-		ssd1306_WriteString("HELLO", Font_11x18, White);
+    /*HAL_GPIO_WritePin(DAC_1_GPIO_Port, DAC_1_Pin, GPIO_PIN_RESET);
+    dac_wu(0xFFFF);
+    HAL_GPIO_WritePin(DAC_1_GPIO_Port, DAC_1_Pin, GPIO_PIN_SET);
+
+    HAL_Delay(500);
+
+    HAL_GPIO_WritePin(DAC_1_GPIO_Port, DAC_1_Pin, GPIO_PIN_RESET);
+    dac_wu(0x0000);
+    HAL_GPIO_WritePin(DAC_1_GPIO_Port, DAC_1_Pin, GPIO_PIN_SET);
+
+    HAL_GPIO_WritePin(DAC_2_GPIO_Port, DAC_2_Pin, GPIO_PIN_RESET);
+    dac_wu(0xFFFF);
+    HAL_GPIO_WritePin(DAC_2_GPIO_Port, DAC_2_Pin, GPIO_PIN_SET);
+
+    HAL_Delay(500);
+
+    HAL_GPIO_WritePin(DAC_2_GPIO_Port, DAC_2_Pin, GPIO_PIN_RESET);
+    dac_wu(0x0000);
+    HAL_GPIO_WritePin(DAC_2_GPIO_Port, DAC_2_Pin, GPIO_PIN_SET);
+
+    HAL_GPIO_WritePin(DAC_3_GPIO_Port, DAC_3_Pin, GPIO_PIN_RESET);
+    dac_wu(0xFFFF);
+    HAL_GPIO_WritePin(DAC_3_GPIO_Port, DAC_3_Pin, GPIO_PIN_SET);
+
+    HAL_Delay(500);
+
+    HAL_GPIO_WritePin(DAC_3_GPIO_Port, DAC_3_Pin, GPIO_PIN_RESET);
+    dac_wu(0x0000);
+    HAL_GPIO_WritePin(DAC_3_GPIO_Port, DAC_3_Pin, GPIO_PIN_SET);
+*/
+    HAL_GPIO_WritePin(DAC_2_GPIO_Port, DAC_2_Pin, GPIO_PIN_RESET);
+    dac_wu(655 * ((HAL_GetTick()/30)%40 + 1));
+    HAL_GPIO_WritePin(DAC_2_GPIO_Port, DAC_2_Pin, GPIO_PIN_SET);
+
     if(HAL_GetTick() - millis > 100)
     {
       HAL_GPIO_TogglePin(BUILTIN_LED_GPIO_Port, BUILTIN_LED_Pin);
       millis = HAL_GetTick();
-      ssd1306_UpdateScreen();
+      char out[100];
+      sprintf(out , "%li" , millis/1000);
+      /*ssd1306_Fill(Black);
+      ssd1306_SetCursor(0  ,  0);
+      ssd1306_WriteString(out, Font_11x18, White);
+      ssd1306_UpdateScreen();*/
     }
   }
   /* USER CODE END 3 */
@@ -308,40 +394,6 @@ static void MX_ADC2_Init(void)
 }
 
 /**
-  * @brief I2C1 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_I2C1_Init(void)
-{
-
-  /* USER CODE BEGIN I2C1_Init 0 */
-
-  /* USER CODE END I2C1_Init 0 */
-
-  /* USER CODE BEGIN I2C1_Init 1 */
-
-  /* USER CODE END I2C1_Init 1 */
-  hi2c1.Instance = I2C1;
-  hi2c1.Init.ClockSpeed = 400000;
-  hi2c1.Init.DutyCycle = I2C_DUTYCYCLE_2;
-  hi2c1.Init.OwnAddress1 = 0;
-  hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
-  hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
-  hi2c1.Init.OwnAddress2 = 0;
-  hi2c1.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
-  hi2c1.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
-  if (HAL_I2C_Init(&hi2c1) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN I2C1_Init 2 */
-
-  /* USER CODE END I2C1_Init 2 */
-
-}
-
-/**
   * @brief SPI2 Initialization Function
   * @param None
   * @retval None
@@ -363,7 +415,7 @@ static void MX_SPI2_Init(void)
   hspi2.Init.DataSize = SPI_DATASIZE_8BIT;
   hspi2.Init.CLKPolarity = SPI_POLARITY_LOW;
   hspi2.Init.CLKPhase = SPI_PHASE_1EDGE;
-  hspi2.Init.NSS = SPI_NSS_SOFT;
+  hspi2.Init.NSS = SPI_NSS_HARD_OUTPUT;
   hspi2.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
   hspi2.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi2.Init.TIMode = SPI_TIMODE_DISABLE;
@@ -515,7 +567,9 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(BUILTIN_LED_GPIO_Port, BUILTIN_LED_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(OLED_RES_GPIO_Port, OLED_RES_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOB, PWR_OLED_Pin|OLED_RES_Pin|PWR_BLE_Pin|DAC_3_Pin
+                          |SDI_Pin|SCK_Pin|SDA_Pin|SCL_Pin
+                          |DAC_1_Pin|DAC_2_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin : BUILTIN_LED_Pin */
   GPIO_InitStruct.Pin = BUILTIN_LED_Pin;
@@ -524,12 +578,27 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(BUILTIN_LED_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : OLED_RES_Pin */
-  GPIO_InitStruct.Pin = OLED_RES_Pin;
+  /*Configure GPIO pins : PWR_OLED_Pin OLED_RES_Pin PWR_BLE_Pin DAC_3_Pin
+                           DAC_1_Pin DAC_2_Pin */
+  GPIO_InitStruct.Pin = PWR_OLED_Pin|OLED_RES_Pin|PWR_BLE_Pin|DAC_3_Pin
+                          |DAC_1_Pin|DAC_2_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(OLED_RES_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : KEY_1_Pin KEY_2_Pin */
+  GPIO_InitStruct.Pin = KEY_1_Pin|KEY_2_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : SDI_Pin SCK_Pin SDA_Pin SCL_Pin */
+  GPIO_InitStruct.Pin = SDI_Pin|SCK_Pin|SDA_Pin|SCL_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
 
