@@ -23,6 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
+#include "ssd1306/ssd1306.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -82,7 +83,6 @@ static void MX_USART2_UART_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -113,33 +113,30 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_ADCEx_Calibration_Start(&hadc1);
   uint32_t millis = 0;
-  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_SET);
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_SET);
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_10, GPIO_PIN_SET);
+  ssd1306_Init();
   /* USER CODE END 2 */
+
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
     /* USER CODE END WHILE */
-    uint8_t reg[3] = { 0b00010000, 0b01111111 , 0b11111111 };                     //write input + update to : 0x80(half)
-    HAL_I2C_Master_Transmit(&hi2c1,  0b1001100, reg, 3, 0xFF);                    //DAC Write
-    uint32_t it = 0;
-    uint16_t seclog[10000];
-    while(HAL_GetTick() - millis <= 100)
-    {
-      HAL_ADC_Start(&hadc1);
-      HAL_ADC_PollForConversion(&hadc1, 1); 
-      seclog[it] = HAL_ADC_GetValue(&hadc1);
-      it++;
-    }
-    for(uint32_t i = 0 ; i < it ; i++)
-      printf("%i," , seclog[i]);
-    printf("\n");
-    reg[1] = 0; reg[2] = 0;                                                       //write input + update to : 0x00(off)
-    HAL_I2C_Master_Transmit(&hi2c1,  0b1001100, reg, 3, 0xFF);                    //DAC Write
-    HAL_Delay(100);                                                               //wait for propagation
+
     /* USER CODE BEGIN 3 */
+    ssd1306_Fill(Black);
+		ssd1306_SetCursor(0  ,  0);
+    //char out[100];
+    //sprintf(out , "%i" , SSD1306_BUFFER_SIZE);
+		ssd1306_WriteString("HELLO", Font_11x18, White);
+    if(HAL_GetTick() - millis > 100)
+    {
+      HAL_GPIO_TogglePin(BUILTIN_LED_GPIO_Port, BUILTIN_LED_Pin);
+      millis = HAL_GetTick();
+      ssd1306_UpdateScreen();
+    }
   }
   /* USER CODE END 3 */
 }
@@ -159,7 +156,7 @@ void SystemClock_Config(void)
   */
   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
-  RCC_OscInitStruct.HSEPredivValue = RCC_HSE_PREDIV_DIV2;
+  RCC_OscInitStruct.HSEPredivValue = RCC_HSE_PREDIV_DIV1;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
@@ -507,11 +504,32 @@ static void MX_USART2_UART_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(BUILTIN_LED_GPIO_Port, BUILTIN_LED_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(OLED_RES_GPIO_Port, OLED_RES_Pin, GPIO_PIN_SET);
+
+  /*Configure GPIO pin : BUILTIN_LED_Pin */
+  GPIO_InitStruct.Pin = BUILTIN_LED_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(BUILTIN_LED_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : OLED_RES_Pin */
+  GPIO_InitStruct.Pin = OLED_RES_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(OLED_RES_GPIO_Port, &GPIO_InitStruct);
 
 }
 

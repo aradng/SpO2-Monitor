@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
   29:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
   30:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   (+) Interrupt generation at the end of regular conversion, end of injected
   31:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       conversion, and in case of analog watchdog or overrun events.
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 2
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 2
 
 
   32:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
   86:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                (+++) __ADC1_CLK_ENABLE();
   87:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                (+++) PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_ADC;
   88:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                (+++) PeriphClkInit.AdcClockSelection = RCC_ADCPCLK2_DIV2;
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 3
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 3
 
 
   89:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                (+++) HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit);
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  143:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     (#) Optionally, perform an automatic ADC calibration to improve the
  144:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         conversion accuracy
  145:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         using function HAL_ADCEx_Calibration_Start().
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 4
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 4
 
 
  146:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  200:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                 using function HAL_ADC_Stop_IT()
  201:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
  202:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****      [..]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 5
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 5
 
 
  203:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  257:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****        (+) LevelOutOfWindowCallback       : ADC analog watchdog 1 callback
  258:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****        (+) ErrorCallback                  : ADC error callback
  259:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****        (+) InjectedConvCpltCallback       : ADC group injected conversion complete callback
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 6
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 6
 
 
  260:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****        (+) MspInitCallback                : ADC Msp Init callback
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  314:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * All rights reserved.</center></h2>
  315:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *
  316:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * This software component is licensed by ST under BSD 3-Clause license,
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 7
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 7
 
 
  317:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * the "License"; You may not use this file except in compliance with the
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  371:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @{
  372:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   */
  373:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** /**
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 8
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 8
 
 
  374:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @}
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  428:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Check ADC handle */
  429:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   if(hadc == NULL)
  430:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 9
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 9
 
 
  431:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     return HAL_ERROR;
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  485:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   }
  486:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
  487:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Stop potential conversion on going, on regular and injected groups */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 10
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 10
 
 
  488:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Disable ADC peripheral */
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  542:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         /* cannot be enabled simultaneously.                                */
  543:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         
  544:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         /* Update ADC state machine to error */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 11
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 11
 
 
  545:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         SET_BIT(hadc->State, HAL_ADC_STATE_ERROR_CONFIG);
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  599:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       
  600:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       /* Set the ADC state */
  601:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       ADC_STATE_CLR_SET(hadc->State,
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 12
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 12
 
 
  602:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                         HAL_ADC_STATE_BUSY_INTERNAL,
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  656:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Disable ADC peripheral */
  657:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   tmp_hal_status = ADC_ConversionStop_Disable(hadc);
  658:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 13
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 13
 
 
  659:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  713:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                                     ADC_SQR1_SQ16 | ADC_SQR1_SQ15 | 
  714:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                                     ADC_SQR1_SQ14 | ADC_SQR1_SQ13  );
  715:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 14
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 14
 
 
  716:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* Reset register SQR1 */
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  770:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* Set ADC state */
  771:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     hadc->State = HAL_ADC_STATE_RESET; 
  772:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 15
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 15
 
 
  773:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   }
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
   54              		@ link register save eliminated.
  803:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Prevent unused argument(s) compilation warning */
  804:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   UNUSED(hadc);
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 16
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 16
 
 
   55              		.loc 1 804 3 view .LVU4
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  844:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     switch (CallbackID)
  845:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
  846:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       case HAL_ADC_CONVERSION_COMPLETE_CB_ID :
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 17
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 17
 
 
  847:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         hadc->ConvCpltCallback = pCallback;
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  901:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         break;
  902:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
  903:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   }
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 18
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 18
 
 
  904:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   else
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  958:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       case HAL_ADC_INJ_CONVERSION_COMPLETE_CB_ID :
  959:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         hadc->InjectedConvCpltCallback = HAL_ADCEx_InjectedConvCpltCallback;
  960:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         break;
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 19
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 19
 
 
  961:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1015:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @}
 1016:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   */
 1017:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 20
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 20
 
 
 1018:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** /** @defgroup ADC_Exported_Functions_Group2 IO operation functions
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1072:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     if (ADC_NONMULTIMODE_OR_MULTIMODEMASTER(hadc))
 1073:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
 1074:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       /* Set ADC state (ADC independent or master) */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 21
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 21
 
 
 1075:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       CLEAR_BIT(hadc->State, HAL_ADC_STATE_MULTIMODE_SLAVE);
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1129:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         ADC_NONMULTIMODE_OR_MULTIMODEMASTER(hadc)  )
 1130:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
 1131:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       /* Start ADC conversion on regular group with SW start */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 22
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 22
 
 
 1132:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       SET_BIT(hadc->Instance->CR2, (ADC_CR2_SWSTART | ADC_CR2_EXTTRIG));
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1186:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   return tmp_hal_status;
 1187:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** }
 1188:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 23
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 23
 
 
 1189:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** /**
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1216:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   tickstart = HAL_GetTick();
   99              		.loc 1 1216 3 view .LVU13
  100              		.loc 1 1216 15 is_stmt 0 view .LVU14
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 24
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 24
 
 
  101 000c FFF7FEFF 		bl	HAL_GetTick
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1248:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
 1249:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* Wait until End of Conversion flag is raised */
 1250:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     while(HAL_IS_BIT_CLR(hadc->Instance->SR, ADC_FLAG_EOC))
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 25
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 25
 
 
 1251:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  151              		.loc 1 1276 44 discriminator 5 view .LVU31
  152 0056 DA68     		ldr	r2, [r3, #12]
  153 0058 424B     		ldr	r3, .L29+12
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 26
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 26
 
 
  154 005a 1A42     		tst	r2, r3
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1304:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Determine whether any further conversion upcoming on group regular       */
 1305:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* by external trigger, continuous mode or scan sequence on going.          */
 1306:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Note: On STM32F1 devices, in case of sequencer enabled                   */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 27
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 27
 
 
 1307:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /*       (several ranks selected), end of conversion flag is raised         */
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  203              		.loc 1 1255 47 discriminator 1 view .LVU48
  204 008c C01B     		subs	r0, r0, r7
 1255:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         {
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 28
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 28
 
 
  205              		.loc 1 1255 28 discriminator 1 view .LVU49
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  248 00ca 2926     		movs	r6, #41
  249 00cc 04E0     		b	.L13
  250              	.L20:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 29
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 29
 
 
  251 00ce 1426     		movs	r6, #20
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  291              		.loc 1 1283 33 discriminator 1 view .LVU74
  292 00f6 FFF7FEFF 		bl	HAL_GetTick
  293              	.LVL15:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 30
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 30
 
 
 1283:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         {
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  334              	.L28:
 1310:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {   
  335              		.loc 1 1310 17 discriminator 1 view .LVU89
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 31
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 31
 
 
  336 0134 287B     		ldrb	r0, [r5, #12]	@ zero_extendqisi2
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1329:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *          This parameter can be one of the following values:
 1330:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *            @arg ADC_AWD_EVENT: ADC Analog watchdog event.
 1331:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @param  Timeout: Timeout value in millisecond.
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 32
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 32
 
 
 1332:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @retval HAL status
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1349:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     if(Timeout != HAL_MAX_DELAY)
  417              		.loc 1 1349 5 is_stmt 1 view .LVU109
  418              		.loc 1 1349 7 is_stmt 0 view .LVU110
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 33
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 33
 
 
  419 001a B6F1FF3F 		cmp	r6, #-1
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  453 004c 1A60     		str	r2, [r3]
 1370:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
 1371:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Return ADC state */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 34
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 34
 
 
 1372:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   return HAL_OK;
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1407:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* for all cases of multimode: independent mode, multimode ADC master     */
 1408:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* or multimode ADC slave (for devices with several ADCs):                */
 1409:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     if (ADC_NONMULTIMODE_OR_MULTIMODEMASTER(hadc))
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 35
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 35
 
 
 1410:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1464:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /*  - if ADC is master, ADC is enabled and conversion is started.         */
 1465:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     if (ADC_IS_SOFTWARE_START_REGULAR(hadc)      &&
 1466:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         ADC_NONMULTIMODE_OR_MULTIMODEMASTER(hadc)  )
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 36
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 36
 
 
 1467:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1521:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   __HAL_UNLOCK(hadc);
 1522:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
 1523:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Return function status */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 37
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 37
 
 
 1524:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   return tmp_hal_status;
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1578:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
 1579:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* Set group injected state (from auto-injection) and multimode state     */
 1580:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* for all cases of multimode: independent mode, multimode ADC master     */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 38
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 38
 
 
 1581:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* or multimode ADC slave (for devices with several ADCs):                */
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1635:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       /* start (in case of SW start):                                         */
 1636:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       
 1637:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       /* Clear regular group conversion flag and overrun flag */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 39
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 39
 
 
 1638:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       /* (To ensure of no unknown state from potential previous ADC           */
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1692:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** HAL_StatusTypeDef HAL_ADC_Stop_DMA(ADC_HandleTypeDef* hadc)
 1693:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** {
 1694:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 40
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 40
 
 
 1695:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1749:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *            to flag EOC.
 1750:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *          - If sequencer is composed of several ranks, during the scan
 1751:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *            sequence flag EOC only is raised, at the end of the scan sequence
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 41
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 41
 
 
 1752:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *            both flags EOC and EOS are raised.
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1780:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));
 1781:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   assert_param(IS_FUNCTIONAL_STATE(hadc->Init.ContinuousConvMode));
 1782:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   assert_param(IS_ADC_REGULAR_NB_CONV(hadc->Init.NbrOfConversion));
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 42
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 42
 
 
 1783:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1837:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         /* Set ADC state */
 1838:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         SET_BIT(hadc->State, HAL_ADC_STATE_INJ_EOC);
 1839:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       }
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 43
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 43
 
 
 1840:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1894:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
 1895:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   }
 1896:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 44
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 44
 
 
 1897:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** }
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1931:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   */
 1932:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** __weak void HAL_ADC_LevelOutOfWindowCallback(ADC_HandleTypeDef* hadc)
 1933:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** {
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 45
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 45
 
 
 1934:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Prevent unused argument(s) compilation warning */
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1988:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *         The setting of these parameters is conditioned to ADC state.
 1989:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *         For parameters constraints, see comments of structure 
 1990:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *         "ADC_ChannelConfTypeDef".
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 46
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 46
 
 
 1991:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @param  hadc: ADC handle
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 2045:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                ADC_SMPR2(ADC_SMPR2_SMP0, sConfig->Channel)       ,
 2046:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                ADC_SMPR2(sConfig->SamplingTime, sConfig->Channel) );
 2047:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   }
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 47
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 47
 
 
 2048:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 2102:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @param  AnalogWDGConfig: Structure of ADC analog watchdog configuration
 2103:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @retval HAL status
 2104:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 48
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 48
 
 
 2105:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** HAL_StatusTypeDef HAL_ADC_AnalogWDGConfig(ADC_HandleTypeDef* hadc, ADC_AnalogWDGConfTypeDef* Analog
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 2159:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
 2160:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Return function status */
 2161:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   return HAL_OK;
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 49
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 49
 
 
 2162:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** }
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 2216:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** /** @defgroup ADC_Private_Functions ADC Private Functions
 2217:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @{
 2218:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 50
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 50
 
 
 2219:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 2273:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** }
 2274:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
 2275:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** /**
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 51
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 51
 
 
 2276:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @brief  Stop ADC conversion and disable the selected ADC
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  533              		.cfi_offset 3, -8
  534              		.cfi_offset 14, -4
 2322:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Retrieve ADC handle corresponding to current DMA handle */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 52
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 52
 
 
 2323:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   ADC_HandleTypeDef* hadc = ( ADC_HandleTypeDef* )((DMA_HandleTypeDef* )hdma)->Parent;
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  559 0022 1846     		mov	r0, r3
  560              	.LVL27:
  561              		.loc 1 2352 5 is_stmt 0 view .LVU149
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 53
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 53
 
 
  562 0024 FFF7FEFF 		bl	HAL_ADC_ConvCpltCallback
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  597 004e 9847     		blx	r3
  598              	.LVL31:
  599              		.loc 1 2360 1 view .LVU162
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 54
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 54
 
 
  600 0050 EAE7     		b	.L41
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 2369:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Retrieve ADC handle corresponding to current DMA handle */
 2370:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   ADC_HandleTypeDef* hadc = ( ADC_HandleTypeDef* )((DMA_HandleTypeDef* )hdma)->Parent;
  647              		.loc 1 2370 3 is_stmt 1 view .LVU168
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 55
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 55
 
 
  648              	.LVL34:
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  694              		.cfi_startproc
  695              		@ args = 0, pretend = 0, frame = 0
  696              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 56
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 56
 
 
 1778:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Check the parameters */
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1802:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****          (hadc->Init.ContinuousConvMode == DISABLE)   )
  735              		.loc 1 1802 9 view .LVU192
  736 002c B2F5602F 		cmp	r2, #917504
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 57
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 57
 
 
  737 0030 38D0     		beq	.L61
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  776 0062 9A68     		ldr	r2, [r3, #8]
  777 0064 02F4E042 		and	r2, r2, #28672
 1848:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****          (HAL_IS_BIT_CLR(hadc->Instance->CR1, ADC_CR1_JAUTO) &&     
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 58
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 58
 
 
  778              		.loc 1 1848 9 view .LVU208
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  819              	.L61:
 1803:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       {
  820              		.loc 1 1803 21 discriminator 1 view .LVU222
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 59
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 59
 
 
  821 00a4 227B     		ldrb	r2, [r4, #12]	@ zero_extendqisi2
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  862 00e2 A36A     		ldr	r3, [r4, #40]
 1859:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         { 
  863              		.loc 1 1859 12 view .LVU236
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 60
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 60
 
 
  864 00e4 13F4807F 		tst	r3, #256
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  913              		.global	ADC_DMAError
  914              		.syntax unified
  915              		.thumb
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 61
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 61
 
 
  916              		.thumb_func
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  947              		.loc 1 2402 1 is_stmt 0 view .LVU252
  948 0018 08BD     		pop	{r3, pc}
  949              		.cfi_endproc
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 62
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 62
 
 
  950              	.LFE91:
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  994 0014 0122     		movs	r2, #1
  995 0016 80F82420 		strb	r2, [r0, #36]
 2007:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 63
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 63
 
 
  996              		.loc 1 2007 3 discriminator 2 view .LVU265
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1039 005e 0A68     		ldr	r2, [r1]
 2051:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       (sConfig->Channel == ADC_CHANNEL_VREFINT)      )
  1040              		.loc 1 2051 52 view .LVU277
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 64
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 64
 
 
  1041 0060 103A     		subs	r2, r2, #16
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1084 0082 1F24     		movs	r4, #31
  1085 0084 9440     		lsls	r4, r4, r2
  1086 0086 20EA0400 		bic	r0, r0, r4
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 65
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 65
 
 
  1087 008a 0C68     		ldr	r4, [r1]
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 2080:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
  1134              		.loc 1 2080 7 view .LVU296
  1135              	.LVL58:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 66
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 66
 
 
 2080:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1175              		.loc 1 2068 11 is_stmt 1 view .LVU311
 2068:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****           {
  1176              		.loc 1 2068 16 is_stmt 0 view .LVU312
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 67
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 67
 
 
  1177 0112 02E0     		b	.L76
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1224              	.LVL64:
  1225              	.LFB84:
 2106:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Check the parameters */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 68
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 68
 
 
  1226              		.loc 1 2106 1 is_stmt 1 view -0
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1264              	.L91:
 2143:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****              ADC_CR1_AWDSGL |
  1265              		.loc 1 2143 3 view .LVU339
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 69
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 69
 
 
  1266 0020 0468     		ldr	r4, [r0]
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1311              	.LCFI17:
  1312              		.cfi_def_cfa_offset 0
  1313              		.cfi_restore 4
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 70
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 70
 
 
  1314              		.cfi_restore 5
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1365              		@ args = 0, pretend = 0, frame = 0
  1366              		@ frame_needed = 0, uses_anonymous_args = 0
  1367              		@ link register save eliminated.
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 71
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 71
 
 
 2205:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** }
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1413 000c 12F0010F 		tst	r2, #1
  1414 0010 2DD1     		bne	.L108
  1415 0012 0446     		mov	r4, r0
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 72
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 72
 
 
 2239:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1454 003c 2368     		ldr	r3, [r4]
  1455 003e 9B68     		ldr	r3, [r3, #8]
 2253:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 73
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 73
 
 
  1456              		.loc 1 2253 10 view .LVU383
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1496 0070 03B0     		add	sp, sp, #12
  1497              	.LCFI20:
  1498              		.cfi_def_cfa_offset 12
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 74
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 74
 
 
  1499              		@ sp needed
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1545              	.LVL80:
 1060:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
  1546              		.loc 1 1060 3 is_stmt 1 discriminator 2 view .LVU408
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 75
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 75
 
 
 1060:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1587 0056 E26A     		ldr	r2, [r4, #44]
  1588 0058 22F00602 		bic	r2, r2, #6
  1589 005c E262     		str	r2, [r4, #44]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 76
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 76
 
 
  1590              	.L121:
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1631 00a2 22F44052 		bic	r2, r2, #12288
  1632 00a6 42F48052 		orr	r2, r2, #4096
  1633 00aa A262     		str	r2, [r4, #40]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 77
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 77
 
 
  1634 00ac CFE7     		b	.L119
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1678              	.L133:
  1679 00de 00BF     		.align	2
  1680              	.L132:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 78
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 78
 
 
  1681 00e0 00280140 		.word	1073817600
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1725 0016 0028     		cmp	r0, #0
  1726 0018 60D1     		bne	.L136
 1402:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                       HAL_ADC_STATE_READY | HAL_ADC_STATE_REG_EOC | HAL_ADC_STATE_REG_OVR | HAL_ADC
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 79
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 79
 
 
  1727              		.loc 1 1402 5 is_stmt 1 view .LVU458
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1768              		.loc 1 1449 5 view .LVU471
 1449:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
  1769              		.loc 1 1449 5 view .LVU472
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 80
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 80
 
 
  1770 005e 0022     		movs	r2, #0
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1812 00aa A26A     		ldr	r2, [r4, #40]
  1813 00ac 22F44052 		bic	r2, r2, #12288
  1814 00b0 42F48052 		orr	r2, r2, #4096
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 81
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 81
 
 
  1815 00b4 A262     		str	r2, [r4, #40]
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1859 00e6 7047     		bx	lr
  1860              	.L153:
  1861              		.align	2
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 82
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 82
 
 
  1862              	.L152:
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1909 0010 434A     		ldr	r2, .L170+4
  1910              	.LVL90:
 1561:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 83
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 83
 
 
  1911              		.loc 1 1561 6 discriminator 1 view .LVU504
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1951 0048 A36A     		ldr	r3, [r4, #40]
  1952 004a 23F48013 		bic	r3, r3, #1048576
  1953 004e A362     		str	r3, [r4, #40]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 84
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 84
 
 
 1589:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       {
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  1991              		.loc 1 1628 46 view .LVU535
  1992 0082 294A     		ldr	r2, .L170+12
  1993 0084 DA62     		str	r2, [r3, #44]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 85
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 85
 
 
 1631:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2035              	.L155:
 1561:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
  2036              		.loc 1 1561 6 is_stmt 0 discriminator 3 view .LVU549
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 86
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 86
 
 
  2037 00c4 154B     		ldr	r3, .L170
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1666:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
  2082              		.loc 1 1666 7 discriminator 1 view .LVU559
 1666:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 87
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 87
 
 
  2083              		.loc 1 1666 7 discriminator 1 view .LVU560
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 2287:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
  2133              		.loc 1 2287 7 is_stmt 0 view .LVU567
  2134 0002 0368     		ldr	r3, [r0]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 88
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 88
 
 
  2135 0004 9A68     		ldr	r2, [r3, #8]
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2174 002e 431B     		subs	r3, r0, r5
 2298:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       {
  2175              		.loc 1 2298 9 view .LVU583
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 89
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 89
 
 
  2176 0030 022B     		cmp	r3, #2
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  422:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
  2220              		.loc 1 422 1 view .LVU596
  2221 0004 70B5     		push	{r4, r5, r6, lr}
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 90
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 90
 
 
  2222              	.LCFI27:
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2259 0020 A26A     		ldr	r2, [r4, #40]
  2260 0022 22F48852 		bic	r2, r2, #4352
  2261 0026 22F00202 		bic	r2, r2, #2
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 91
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 91
 
 
  2262 002a 42F00202 		orr	r2, r2, #2
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2301              		.loc 1 560 7 view .LVU628
  2302 005c 2568     		ldr	r5, [r4]
  2303              	.LVL113:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 92
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 92
 
 
  560:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                  ADC_CR2_ALIGN   |
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  608:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                         HAL_ADC_STATE_BUSY_INTERNAL,
  2345              		.loc 1 608 7 is_stmt 1 view .LVU642
  2346 0092 A36A     		ldr	r3, [r4, #40]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 93
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 93
 
 
  2347 0094 23F01203 		bic	r3, r3, #18
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2388 00ca C1E7     		b	.L185
  2389              	.L186:
  545:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 94
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 94
 
 
  2390              		.loc 1 545 9 is_stmt 1 view .LVU656
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2435              		.loc 1 629 1 view .LVU665
  2436 00fe 7047     		bx	lr
  2437              	.L201:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 95
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 95
 
 
  2438              		.align	2
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2484              		.loc 1 662 3 is_stmt 1 view .LVU675
  662:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
  2485              		.loc 1 662 6 is_stmt 0 view .LVU676
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 96
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 96
 
 
  2486 0014 0546     		mov	r5, r0
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2529              		.loc 1 698 5 view .LVU687
  2530 0052 2268     		ldr	r2, [r4]
  2531 0054 5369     		ldr	r3, [r2, #20]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 97
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 97
 
 
  2532 0056 23F47F63 		bic	r3, r3, #4080
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2578 00be 03F04043 		and	r3, r3, #-1073741824
  2579 00c2 1363     		str	r3, [r2, #48]
  726:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                                     ADC_SQR3_SQ3 | ADC_SQR3_SQ2 | ADC_SQR3_SQ1  );
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 98
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 98
 
 
  2580              		.loc 1 726 5 view .LVU696
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2627              		.thumb
  2628              		.thumb_func
  2629              		.fpu softvfp
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 99
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 99
 
 
  2631              	HAL_ADC_Stop:
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1183:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
  2671              		.loc 1 1183 3 view .LVU719
  2672 0028 0023     		movs	r3, #0
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 100
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 100
 
 
  2673 002a 84F82430 		strb	r3, [r4, #36]
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2718              		.cfi_offset 4, -8
  2719              		.cfi_offset 14, -4
  2720 000a 0446     		mov	r4, r0
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 101
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 101
 
 
 1502:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1525:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
  2761              		.loc 1 1525 1 view .LVU745
  2762 003c 7047     		bx	lr
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 102
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 102
 
 
  2763              		.cfi_endproc
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2806              		.loc 1 1710 5 is_stmt 1 view .LVU758
  2807 0018 2268     		ldr	r2, [r4]
  2808 001a 9368     		ldr	r3, [r2, #8]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 103
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 103
 
 
  2809 001c 23F48073 		bic	r3, r3, #256
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
 1729:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       }
  2848              		.loc 1 1729 9 view .LVU774
  2849 004e A36A     		ldr	r3, [r4, #40]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 104
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 104
 
 
  2850 0050 43F04003 		orr	r3, r3, #64
@@ -6213,77 +6213,77 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 1
  2878              		.file 11 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
  2879              		.file 12 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h"
  2880              		.file 13 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h"
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 105
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 105
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f1xx_hal_adc.c
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:16     .text.HAL_ADC_MspInit:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:24     .text.HAL_ADC_MspInit:00000000 HAL_ADC_MspInit
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:40     .text.HAL_ADC_MspDeInit:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:47     .text.HAL_ADC_MspDeInit:00000000 HAL_ADC_MspDeInit
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:62     .text.HAL_ADC_PollForConversion:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:69     .text.HAL_ADC_PollForConversion:00000000 HAL_ADC_PollForConversion
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:361    .text.HAL_ADC_PollForConversion:00000158 $d
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:370    .text.HAL_ADC_PollForEvent:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:377    .text.HAL_ADC_PollForEvent:00000000 HAL_ADC_PollForEvent
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:465    .text.HAL_ADC_GetValue:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:472    .text.HAL_ADC_GetValue:00000000 HAL_ADC_GetValue
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:493    .text.HAL_ADC_ConvCpltCallback:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:500    .text.HAL_ADC_ConvCpltCallback:00000000 HAL_ADC_ConvCpltCallback
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:515    .text.ADC_DMAConvCplt:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:522    .text.ADC_DMAConvCplt:00000000 ADC_DMAConvCplt
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:605    .text.HAL_ADC_ConvHalfCpltCallback:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:612    .text.HAL_ADC_ConvHalfCpltCallback:00000000 HAL_ADC_ConvHalfCpltCallback
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:627    .text.ADC_DMAHalfConvCplt:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:634    .text.ADC_DMAHalfConvCplt:00000000 ADC_DMAHalfConvCplt
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:661    .text.HAL_ADC_LevelOutOfWindowCallback:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:668    .text.HAL_ADC_LevelOutOfWindowCallback:00000000 HAL_ADC_LevelOutOfWindowCallback
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:683    .text.HAL_ADC_IRQHandler:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:690    .text.HAL_ADC_IRQHandler:00000000 HAL_ADC_IRQHandler
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:890    .text.HAL_ADC_ErrorCallback:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:897    .text.HAL_ADC_ErrorCallback:00000000 HAL_ADC_ErrorCallback
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:912    .text.ADC_DMAError:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:919    .text.ADC_DMAError:00000000 ADC_DMAError
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:953    .text.HAL_ADC_ConfigChannel:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:960    .text.HAL_ADC_ConfigChannel:00000000 HAL_ADC_ConfigChannel
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1209   .text.HAL_ADC_ConfigChannel:0000012c $d
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1216   .text.HAL_ADC_AnalogWDGConfig:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1223   .text.HAL_ADC_AnalogWDGConfig:00000000 HAL_ADC_AnalogWDGConfig
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1323   .text.HAL_ADC_AnalogWDGConfig:0000005c $d
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1328   .text.HAL_ADC_GetState:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1335   .text.HAL_ADC_GetState:00000000 HAL_ADC_GetState
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1353   .text.HAL_ADC_GetError:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1360   .text.HAL_ADC_GetError:00000000 HAL_ADC_GetError
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1378   .text.ADC_Enable:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1385   .text.ADC_Enable:00000000 ADC_Enable
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1504   .text.ADC_Enable:00000074 $d
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1510   .text.HAL_ADC_Start:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1517   .text.HAL_ADC_Start:00000000 HAL_ADC_Start
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1681   .text.HAL_ADC_Start:000000e0 $d
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1687   .text.HAL_ADC_Start_IT:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1694   .text.HAL_ADC_Start_IT:00000000 HAL_ADC_Start_IT
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1863   .text.HAL_ADC_Start_IT:000000e8 $d
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1869   .text.HAL_ADC_Start_DMA:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:1876   .text.HAL_ADC_Start_DMA:00000000 HAL_ADC_Start_DMA
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2099   .text.HAL_ADC_Start_DMA:0000011c $d
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2108   .text.ADC_ConversionStop_Disable:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2115   .text.ADC_ConversionStop_Disable:00000000 ADC_ConversionStop_Disable
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2198   .text.HAL_ADC_Init:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2205   .text.HAL_ADC_Init:00000000 HAL_ADC_Init
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2440   .text.HAL_ADC_Init:00000100 $d
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2446   .text.HAL_ADC_DeInit:00000000 $t
-ARM GAS  C:\Users\arada\AppData\Local\Temp\ccPm59hh.s 			page 106
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:16     .text.HAL_ADC_MspInit:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:24     .text.HAL_ADC_MspInit:00000000 HAL_ADC_MspInit
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:40     .text.HAL_ADC_MspDeInit:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:47     .text.HAL_ADC_MspDeInit:00000000 HAL_ADC_MspDeInit
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:62     .text.HAL_ADC_PollForConversion:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:69     .text.HAL_ADC_PollForConversion:00000000 HAL_ADC_PollForConversion
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:361    .text.HAL_ADC_PollForConversion:00000158 $d
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:370    .text.HAL_ADC_PollForEvent:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:377    .text.HAL_ADC_PollForEvent:00000000 HAL_ADC_PollForEvent
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:465    .text.HAL_ADC_GetValue:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:472    .text.HAL_ADC_GetValue:00000000 HAL_ADC_GetValue
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:493    .text.HAL_ADC_ConvCpltCallback:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:500    .text.HAL_ADC_ConvCpltCallback:00000000 HAL_ADC_ConvCpltCallback
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:515    .text.ADC_DMAConvCplt:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:522    .text.ADC_DMAConvCplt:00000000 ADC_DMAConvCplt
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:605    .text.HAL_ADC_ConvHalfCpltCallback:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:612    .text.HAL_ADC_ConvHalfCpltCallback:00000000 HAL_ADC_ConvHalfCpltCallback
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:627    .text.ADC_DMAHalfConvCplt:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:634    .text.ADC_DMAHalfConvCplt:00000000 ADC_DMAHalfConvCplt
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:661    .text.HAL_ADC_LevelOutOfWindowCallback:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:668    .text.HAL_ADC_LevelOutOfWindowCallback:00000000 HAL_ADC_LevelOutOfWindowCallback
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:683    .text.HAL_ADC_IRQHandler:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:690    .text.HAL_ADC_IRQHandler:00000000 HAL_ADC_IRQHandler
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:890    .text.HAL_ADC_ErrorCallback:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:897    .text.HAL_ADC_ErrorCallback:00000000 HAL_ADC_ErrorCallback
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:912    .text.ADC_DMAError:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:919    .text.ADC_DMAError:00000000 ADC_DMAError
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:953    .text.HAL_ADC_ConfigChannel:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:960    .text.HAL_ADC_ConfigChannel:00000000 HAL_ADC_ConfigChannel
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1209   .text.HAL_ADC_ConfigChannel:0000012c $d
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1216   .text.HAL_ADC_AnalogWDGConfig:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1223   .text.HAL_ADC_AnalogWDGConfig:00000000 HAL_ADC_AnalogWDGConfig
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1323   .text.HAL_ADC_AnalogWDGConfig:0000005c $d
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1328   .text.HAL_ADC_GetState:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1335   .text.HAL_ADC_GetState:00000000 HAL_ADC_GetState
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1353   .text.HAL_ADC_GetError:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1360   .text.HAL_ADC_GetError:00000000 HAL_ADC_GetError
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1378   .text.ADC_Enable:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1385   .text.ADC_Enable:00000000 ADC_Enable
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1504   .text.ADC_Enable:00000074 $d
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1510   .text.HAL_ADC_Start:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1517   .text.HAL_ADC_Start:00000000 HAL_ADC_Start
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1681   .text.HAL_ADC_Start:000000e0 $d
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1687   .text.HAL_ADC_Start_IT:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1694   .text.HAL_ADC_Start_IT:00000000 HAL_ADC_Start_IT
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1863   .text.HAL_ADC_Start_IT:000000e8 $d
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1869   .text.HAL_ADC_Start_DMA:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:1876   .text.HAL_ADC_Start_DMA:00000000 HAL_ADC_Start_DMA
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2099   .text.HAL_ADC_Start_DMA:0000011c $d
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2108   .text.ADC_ConversionStop_Disable:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2115   .text.ADC_ConversionStop_Disable:00000000 ADC_ConversionStop_Disable
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2198   .text.HAL_ADC_Init:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2205   .text.HAL_ADC_Init:00000000 HAL_ADC_Init
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2440   .text.HAL_ADC_Init:00000100 $d
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2446   .text.HAL_ADC_DeInit:00000000 $t
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s 			page 106
 
 
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2453   .text.HAL_ADC_DeInit:00000000 HAL_ADC_DeInit
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2618   .text.HAL_ADC_DeInit:000000f4 $d
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2624   .text.HAL_ADC_Stop:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2631   .text.HAL_ADC_Stop:00000000 HAL_ADC_Stop
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2693   .text.HAL_ADC_Stop_IT:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2700   .text.HAL_ADC_Stop_IT:00000000 HAL_ADC_Stop_IT
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2767   .text.HAL_ADC_Stop_DMA:00000000 $t
-C:\Users\arada\AppData\Local\Temp\ccPm59hh.s:2774   .text.HAL_ADC_Stop_DMA:00000000 HAL_ADC_Stop_DMA
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2453   .text.HAL_ADC_DeInit:00000000 HAL_ADC_DeInit
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2618   .text.HAL_ADC_DeInit:000000f4 $d
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2624   .text.HAL_ADC_Stop:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2631   .text.HAL_ADC_Stop:00000000 HAL_ADC_Stop
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2693   .text.HAL_ADC_Stop_IT:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2700   .text.HAL_ADC_Stop_IT:00000000 HAL_ADC_Stop_IT
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2767   .text.HAL_ADC_Stop_DMA:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccpZ2N4a.s:2774   .text.HAL_ADC_Stop_DMA:00000000 HAL_ADC_Stop_DMA
 
 UNDEFINED SYMBOLS
 HAL_GetTick

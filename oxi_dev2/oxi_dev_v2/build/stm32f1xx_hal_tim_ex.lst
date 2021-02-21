@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
   30:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   ==============================================================================
   31:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     [..]
   32:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****      (#) Initialize the TIM low level resources by implementing the following functions
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 2
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 2
 
 
   33:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****          depending on the selected feature:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
   87:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
   88:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
   89:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** #ifdef HAL_TIM_MODULE_ENABLED
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 3
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 3
 
 
   90:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  144:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  145:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Check the parameters */
  146:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   assert_param(IS_TIM_HALL_SENSOR_INTERFACE_INSTANCE(htim->Instance));
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 4
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 4
 
 
  147:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   assert_param(IS_TIM_COUNTER_MODE(htim->Init.CounterMode));
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  201:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   OC_Config.OCFastMode = TIM_OCFAST_DISABLE;
  202:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   OC_Config.OCIdleState = TIM_OCIDLESTATE_RESET;
  203:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   OC_Config.OCMode = TIM_OCMODE_PWM2;
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 5
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 5
 
 
  204:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   OC_Config.OCNIdleState = TIM_OCNIDLESTATE_RESET;
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  258:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Change the DMA burst operation state */
  259:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->DMABurstState = HAL_DMA_BURST_STATE_RESET;
  260:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 6
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 6
 
 
  261:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Change the TIM channels state */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  315:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef channel_2_state = TIM_CHANNEL_STATE_GET(htim, TIM_CHANNEL_2);
  316:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef complementary_channel_1_state = TIM_CHANNEL_N_STATE_GET(htim, TIM_CHA
  317:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef complementary_channel_2_state = TIM_CHANNEL_N_STATE_GET(htim, TIM_CHA
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 7
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 7
 
 
  318:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  372:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  373:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Disable the Peripheral */
  374:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   __HAL_TIM_DISABLE(htim);
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 8
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 8
 
 
  375:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  429:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
  430:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       __HAL_TIM_ENABLE(htim);
  431:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 9
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 9
 
 
  432:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  486:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   assert_param(IS_TIM_HALL_SENSOR_INTERFACE_INSTANCE(htim->Instance));
  487:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  488:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Set the TIM channel state */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 10
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 10
 
 
  489:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   if ((channel_1_state == HAL_TIM_CHANNEL_STATE_BUSY)
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  543:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
  544:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  545:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Return function status */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 11
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 11
 
 
  546:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   return HAL_OK;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  600:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** @endverbatim
  601:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @{
  602:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 12
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 12
 
 
  603:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  657:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *         output.
  658:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  htim TIM handle
  659:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  Channel TIM Channel to be disabled
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 13
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 13
 
 
  660:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  714:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   switch (Channel)
  715:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  716:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     case TIM_CHANNEL_1:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 14
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 14
 
 
  717:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  771:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *         on the complementary output.
  772:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  htim TIM Output Compare handle
  773:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  Channel TIM Channel to be disabled
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 15
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 15
 
 
  774:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  828:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  829:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Set the TIM complementary channel state */
  830:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, Channel, HAL_TIM_CHANNEL_STATE_READY);
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 16
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 16
 
 
  831:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  885:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       /* Set the DMA error callback */
  886:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC1]->XferErrorCallback = TIM_DMAErrorCCxN ;
  887:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 17
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 17
 
 
  888:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       /* Enable the DMA channel */
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  942:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  943:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Enable the Capture compare channel N */
  944:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CCxNChannelCmd(htim->Instance, Channel, TIM_CCxN_ENABLE);
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 18
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 18
 
 
  945:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  999:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
 1000:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1001:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     case TIM_CHANNEL_3:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 19
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 19
 
 
 1002:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1056:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     (+) Start the Complementary One Pulse and enable interrupts.
 1057:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     (+) Stop the Complementary One Pulse and disable interrupts.
 1058:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 20
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 20
 
 
 1059:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** @endverbatim
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1113:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** /**
 1114:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @brief  Stops the PWM signal generation on the complementary output.
 1115:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  htim TIM handle
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 21
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 21
 
 
 1116:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  Channel TIM Channel to be disabled
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1170:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1171:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   switch (Channel)
 1172:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 22
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 22
 
 
 1173:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     case TIM_CHANNEL_1:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1227:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *         complementary output.
 1228:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  htim TIM handle
 1229:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  Channel TIM Channel to be disabled
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 23
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 23
 
 
 1230:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1284:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   __HAL_TIM_DISABLE(htim);
 1285:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1286:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Set the TIM complementary channel state */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 24
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 24
 
 
 1287:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, Channel, HAL_TIM_CHANNEL_STATE_READY);
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1341:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1342:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       /* Set the DMA error callback */
 1343:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC1]->XferErrorCallback = TIM_DMAErrorCCxN ;
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 25
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 25
 
 
 1344:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1398:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
 1399:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1400:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Enable the complementary PWM output  */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 26
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 26
 
 
 1401:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CCxNChannelCmd(htim->Instance, Channel, TIM_CCxN_ENABLE);
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1455:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
 1456:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
 1457:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 27
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 27
 
 
 1458:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     case TIM_CHANNEL_3:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1512:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  OutputChannel TIM Channel to be enabled
 1513:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
 1514:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_1: TIM Channel 1 selected
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 28
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 28
 
 
 1515:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_2: TIM Channel 2 selected
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1569:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1570:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Disable the Main Output */
 1571:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   __HAL_TIM_MOE_DISABLE(htim);
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 29
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 29
 
 
 1572:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1626:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1627:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Return function status */
 1628:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   return HAL_OK;
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 30
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 30
 
 
 1629:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** }
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1683:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   [..]
 1684:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     This section provides functions allowing to:
 1685:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       (+) Configure the commutation event in case of use of the Hall sensor interface.
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 31
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 31
 
 
 1686:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       (+) Configure Output channels for OC and PWM mode.
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1740:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1741:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Disable Commutation Interrupt */
 1742:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   __HAL_TIM_DISABLE_IT(htim, TIM_IT_COM);
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 32
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 32
 
 
 1743:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1797:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Disable Commutation DMA request */
 1798:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   __HAL_TIM_DISABLE_DMA(htim, TIM_DMA_COM);
 1799:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 33
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 33
 
 
 1800:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Enable the Commutation Interrupt */
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1854:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Enable the Commutation DMA Request */
 1855:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Set the DMA Commutation Callback */
 1856:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->hdma[TIM_DMA_ID_COMMUTATION]->XferCpltCallback = TIMEx_DMACommutationCplt;
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 34
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 34
 
 
 1857:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->hdma[TIM_DMA_ID_COMMUTATION]->XferHalfCpltCallback = TIMEx_DMACommutationHalfCplt;
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1911:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   if (IS_TIM_SLAVE_INSTANCE(htim->Instance))
 1912:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
 1913:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     /* Reset the MSM Bit */
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 35
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 35
 
 
 1914:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     tmpsmcr &= ~TIM_SMCR_MSM;
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1968:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_BKE, sBreakDeadTimeConfig->BreakState);
 1969:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_BKP, sBreakDeadTimeConfig->BreakPolarity);
 1970:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_AOE, sBreakDeadTimeConfig->AutomaticOutput);
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 36
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 36
 
 
 1971:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 2025:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   UNUSED(htim);
 2026:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 2027:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* NOTE : This function should not be modified, when the callback is needed,
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 37
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 37
 
 
 2028:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****             the HAL_TIMEx_CommutCallback could be implemented in the user file
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 2082:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @retval HAL state
 2083:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
 2084:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** HAL_TIM_StateTypeDef HAL_TIMEx_HallSensor_GetState(TIM_HandleTypeDef *htim)
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 38
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 38
 
 
 2085:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** {
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 2139:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** #endif /* USE_HAL_TIM_REGISTER_CALLBACKS */
 2140:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** }
 2141:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 39
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 39
 
 
 2142:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** /**
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 2196:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
 2197:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
 2198:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   else if (hdma == htim->hdma[TIM_DMA_ID_CC4])
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 40
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 40
 
 
 2199:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 2253:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ErrorCallback(htim);
 2254:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** #endif /* USE_HAL_TIM_REGISTER_CALLBACKS */
 2255:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 41
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 41
 
 
 2256:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->Channel = HAL_TIM_ACTIVE_CHANNEL_CLEARED;
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
   55 0016 02FA01F1 		lsl	r1, r2, r1
   56              		.loc 1 2281 14 view .LVU11
   57 001a 0B43     		orrs	r3, r3, r1
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 42
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 42
 
 
   58 001c 0362     		str	r3, [r0, #32]
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  103              		.loc 1 2235 11 view .LVU23
  104 000c 8342     		cmp	r3, r0
  105 000e 0DD0     		beq	.L9
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 43
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 43
 
 
 2240:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 2242:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_3, HAL_TIM_CHANNEL_STATE_READY);
  145              		.loc 1 2242 5 view .LVU39
 2242:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_3, HAL_TIM_CHANNEL_STATE_READY);
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 44
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 44
 
 
  146              		.loc 1 2242 19 is_stmt 0 view .LVU40
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  191 000e 14D0     		beq	.L18
 2189:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  192              		.loc 1 2189 8 is_stmt 1 view .LVU52
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 45
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 45
 
 
 2189:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  230              		.loc 1 2177 7 is_stmt 1 view .LVU69
  231 0032 0123     		movs	r3, #1
  232 0034 84F84230 		strb	r3, [r4, #66]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 46
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 46
 
 
  233 0038 F0E7     		b	.L13
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  271 0062 8369     		ldr	r3, [r0, #24]
 2202:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
  272              		.loc 1 2202 8 view .LVU86
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 47
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 47
 
 
  273 0064 002B     		cmp	r3, #0
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  323 0002 65D0     		beq	.L25
  136:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_OC_InitTypeDef OC_Config;
  324              		.loc 1 136 1 view .LVU95
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 48
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 48
 
 
  325 0004 70B5     		push	{r4, r5, r6, lr}
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  365 002a 2068     		ldr	r0, [r4]
  366 002c FFF7FEFF 		bl	TIM_TI1_SetConfig
  367              	.LVL18:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 49
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 49
 
 
  185:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Set the IC1PSC value */
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  405 0060 9360     		str	r3, [r2, #8]
  197:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->Instance->SMCR |= TIM_SLAVEMODE_RESET;
  406              		.loc 1 197 3 is_stmt 1 view .LVU127
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 50
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 50
 
 
  197:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->Instance->SMCR |= TIM_SLAVEMODE_RESET;
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  442 0086 F368     		ldr	r3, [r6, #12]
  207:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  443              		.loc 1 207 19 view .LVU147
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 51
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 51
 
 
  444 0088 0293     		str	r3, [sp, #8]
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  481 00c0 2846     		mov	r0, r5
  229:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  482              		.loc 1 229 1 view .LVU165
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 52
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 52
 
 
  483 00c2 08B0     		add	sp, sp, #32
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  532              		@ link register save eliminated.
  299:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  533              		.loc 1 299 3 view .LVU173
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 53
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 53
 
 
  304:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  580 0022 22F00102 		bic	r2, r2, #1
  581 0026 1A60     		str	r2, [r3]
  582              	.L33:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 54
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 54
 
 
  244:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  621              		.thumb_func
  622              		.fpu softvfp
  624              	HAL_TIMEx_HallSensor_Start:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 55
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 55
 
 
  625              	.LVL28:
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  323:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       || (channel_2_state != HAL_TIM_CHANNEL_STATE_READY)
  664              		.loc 1 323 6 view .LVU216
  665 001c D2B2     		uxtb	r2, r2
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 56
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 56
 
 
  323:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       || (channel_2_state != HAL_TIM_CHANNEL_STATE_READY)
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  342:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  705              		.loc 1 342 7 is_stmt 0 view .LVU232
  706 004a 2368     		ldr	r3, [r4]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 57
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 57
 
 
  342:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  747 0086 0020     		movs	r0, #0
  748 0088 00E0     		b	.L36
  749              	.LVL42:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 58
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 58
 
 
  750              	.L39:
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  798              		.loc 1 367 3 is_stmt 1 view .LVU254
  371:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  799              		.loc 1 371 3 view .LVU255
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 59
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 59
 
 
  800 0004 0022     		movs	r2, #0
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  842              		.section	.text.HAL_TIMEx_HallSensor_Start_IT,"ax",%progbits
  843              		.align	1
  844              		.global	HAL_TIMEx_HallSensor_Start_IT
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 60
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 60
 
 
  845              		.syntax unified
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  403:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       || (channel_2_state != HAL_TIM_CHANNEL_STATE_READY)
  886              		.loc 1 403 6 is_stmt 0 view .LVU283
  887 0016 0128     		cmp	r0, #1
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 61
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 61
 
 
  888 0018 3DD1     		bne	.L54
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  422:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  928              		.loc 1 422 3 is_stmt 1 view .LVU298
  929 004c 0122     		movs	r2, #1
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 62
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 62
 
 
  930 004e 0021     		movs	r1, #0
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  970              		.loc 1 428 5 is_stmt 1 view .LVU312
  428:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
  971              		.loc 1 428 8 is_stmt 0 view .LVU313
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 63
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 63
 
 
  972 0086 062A     		cmp	r2, #6
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1020              	.LFB72:
  448:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Check the parameters */
  1021              		.loc 1 448 1 is_stmt 1 view -0
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 64
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 64
 
 
  1022              		.cfi_startproc
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1065 0036 0123     		movs	r3, #1
  1066 0038 84F83E30 		strb	r3, [r4, #62]
  464:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_1, HAL_TIM_CHANNEL_STATE_READY);
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 65
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 65
 
 
  1067              		.loc 1 464 3 discriminator 5 view .LVU334
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  483:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  1113              		.loc 1 483 3 is_stmt 1 view .LVU345
  483:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 66
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 66
 
 
  1114              		.loc 1 483 31 is_stmt 0 view .LVU346
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1153              		.loc 1 514 3 view .LVU361
  1154 0036 2068     		ldr	r0, [r4]
  1155              	.LVL79:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 67
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 67
 
 
  514:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1194              		.loc 1 532 3 view .LVU377
  532:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  1195              		.loc 1 532 7 is_stmt 0 view .LVU378
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 68
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 68
 
 
  1196 0068 2368     		ldr	r3, [r4]
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1237 009e 062A     		cmp	r2, #6
  1238 00a0 07D0     		beq	.L66
  537:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 69
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 69
 
 
  1239              		.loc 1 537 7 is_stmt 1 view .LVU392
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1288              		.cfi_startproc
  1289              		@ args = 0, pretend = 0, frame = 0
  1290              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 70
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 70
 
 
  555:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Check the parameters */
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  570:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  1334              		.loc 1 570 3 discriminator 5 view .LVU411
  573:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_1, HAL_TIM_CHANNEL_STATE_READY);
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 71
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 71
 
 
  1335              		.loc 1 573 3 discriminator 5 view .LVU412
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1379 0008 94F84230 		ldrb	r3, [r4, #66]	@ zero_extendqisi2
  1380 000c DBB2     		uxtb	r3, r3
  623:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 72
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 72
 
 
  1381              		.loc 1 623 46 discriminator 1 view .LVU425
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1423 0048 9342     		cmp	r3, r2
  1424 004a 32D0     		beq	.L91
  638:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 73
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 73
 
 
  1425              		.loc 1 638 7 discriminator 3 view .LVU438
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1469 0090 C0E7     		b	.L83
  1470              	.L87:
  629:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 74
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 74
 
 
  1471              		.loc 1 629 3 discriminator 2 view .LVU449
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1513              	.L93:
  625:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
  1514              		.loc 1 625 12 view .LVU462
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 75
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 75
 
 
  1515 00c8 0120     		movs	r0, #1
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1564              	.LVL110:
  675:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  1565              		.loc 1 675 3 is_stmt 1 view .LVU470
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 76
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 76
 
 
  675:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  685:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  1608              		.loc 1 685 1 is_stmt 0 view .LVU483
  1609 0052 0020     		movs	r0, #0
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 77
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 77
 
 
  1610 0054 38BD     		pop	{r3, r4, r5, pc}
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1658              		.loc 1 700 3 is_stmt 1 view .LVU491
  703:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  1659              		.loc 1 703 3 view .LVU492
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 78
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 78
 
 
  706:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1702              		.loc 1 746 3 is_stmt 0 view .LVU504
  1703 003e 2068     		ldr	r0, [r4]
  1704              	.LVL115:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 79
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 79
 
 
  746:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1746              		.loc 1 706 7 discriminator 8 view .LVU517
  1747 0080 94F84530 		ldrb	r3, [r4, #69]	@ zero_extendqisi2
  1748 0084 DBB2     		uxtb	r3, r3
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 80
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 80
 
 
  706:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1793              	.L130:
  719:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
  1794              		.loc 1 719 7 is_stmt 1 view .LVU528
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 81
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 81
 
 
  1795 00ca 2268     		ldr	r2, [r4]
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1836 0100 0020     		movs	r0, #0
  1837 0102 00E0     		b	.L117
  1838              	.LVL121:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 82
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 82
 
 
  1839              	.L127:
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1887 0008 3CD0     		beq	.L138
  1888 000a 0829     		cmp	r1, #8
  1889 000c 40D0     		beq	.L139
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 83
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 83
 
 
  1890 000e 0029     		cmp	r1, #0
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1931 0042 1142     		tst	r1, r2
  1932 0044 03D1     		bne	.L142
  824:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 84
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 84
 
 
  1933              		.loc 1 824 3 discriminator 3 view .LVU563
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  1975 0082 C6E7     		b	.L140
  1976              	.L138:
  798:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 85
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 85
 
 
  1977              		.loc 1 798 7 view .LVU576
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2025              	HAL_TIMEx_OCN_Start_DMA:
  2026              	.LVL132:
  2027              	.LFB79:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 86
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 86
 
 
  850:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   uint32_t tmpsmcr;
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2069              	.LVL134:
  861:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  2070              		.loc 1 861 12 discriminator 1 view .LVU598
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 87
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 87
 
 
  2071 0028 D2B2     		uxtb	r2, r2
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2114              		.loc 1 950 7 is_stmt 0 view .LVU609
  2115 006a 2368     		ldr	r3, [r4]
  950:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 88
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 88
 
 
  2116              		.loc 1 950 6 view .LVU610
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2159              		.loc 1 857 7 discriminator 4 view .LVU621
  2160 00b4 90F84300 		ldrb	r0, [r0, #67]	@ zero_extendqisi2
  2161              	.LVL140:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 89
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 89
 
 
  857:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2205              	.LVL145:
  861:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  2206              		.loc 1 861 12 discriminator 4 view .LVU633
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 90
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 90
 
 
  2207 00f0 D2B2     		uxtb	r2, r2
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  869:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
  2251              		.loc 1 869 7 discriminator 6 view .LVU644
  2252 012c 0222     		movs	r2, #2
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 91
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 91
 
 
  2253 012e 84F84420 		strb	r2, [r4, #68]
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2292 015e D360     		str	r3, [r2, #12]
  896:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
  2293              		.loc 1 896 7 view .LVU660
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 92
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 92
 
 
  2294 0160 79E7     		b	.L169
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2333 018c D360     		str	r3, [r2, #12]
  916:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
  2334              		.loc 1 916 7 view .LVU676
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 93
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 93
 
 
  2335 018e 62E7     		b	.L169
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  936:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
  2374              		.loc 1 936 7 view .LVU692
  2375 01ba 4CE7     		b	.L169
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 94
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 94
 
 
  2376              	.L170:
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2417 01e0 FAE7     		b	.L157
  2418              	.L177:
  932:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       }
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 95
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 95
 
 
  2419              		.loc 1 932 16 view .LVU706
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2470              	.L193:
 1014:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  2471              		.loc 1 1014 3 view .LVU712
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 96
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 96
 
 
  2472 0010 0022     		movs	r2, #0
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1023:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  2515              		.loc 1 1023 3 is_stmt 0 discriminator 1 view .LVU724
  2516 0058 0123     		movs	r3, #1
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 97
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 97
 
 
  2517 005a 85F84230 		strb	r3, [r5, #66]
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2558 0086 0268     		ldr	r2, [r0]
  2559 0088 D368     		ldr	r3, [r2, #12]
  2560 008a 23F40063 		bic	r3, r3, #2048
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 98
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 98
 
 
  2561 008e D360     		str	r3, [r2, #12]
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2607              		.cfi_startproc
  2608              		@ args = 0, pretend = 0, frame = 0
  2609              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 99
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 99
 
 
 1074:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   uint32_t tmpsmcr;
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2650              		.loc 1 1090 3 view .LVU761
  2651 0028 FFF7FEFF 		bl	TIM_CCxNChannelCmd
  2652              	.LVL179:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 100
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 100
 
 
 1093:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2694              		.loc 1 1081 46 discriminator 8 view .LVU774
  2695 006e 013B     		subs	r3, r3, #1
  2696 0070 18BF     		it	ne
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 101
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 101
 
 
  2697 0072 0123     		movne	r3, #1
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1098:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
  2741              		.loc 1 1098 29 is_stmt 0 view .LVU785
  2742 00b2 9A68     		ldr	r2, [r3, #8]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 102
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 102
 
 
 1098:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1124:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Check the parameters */
  2790              		.loc 1 1124 1 is_stmt 1 view -0
  2791              		.cfi_startproc
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 103
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 103
 
 
  2792              		@ args = 0, pretend = 0, frame = 0
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2835 0034 1142     		tst	r1, r2
  2836 0036 08D1     		bne	.L227
 1135:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 104
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 104
 
 
  2837              		.loc 1 1135 3 discriminator 1 view .LVU807
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2880              		.cfi_endproc
  2881              	.LFE82:
  2883              		.section	.text.HAL_TIMEx_PWMN_Start_IT,"ax",%progbits
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 105
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 105
 
 
  2884              		.align	1
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1169:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  2928              		.loc 1 1169 3 is_stmt 0 discriminator 1 view .LVU830
  2929 001e 0223     		movs	r3, #2
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 106
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 106
 
 
  2930 0020 84F84230 		strb	r3, [r4, #66]
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  2973 0062 44D0     		beq	.L248
 1208:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  2974              		.loc 1 1208 7 discriminator 3 view .LVU842
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 107
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 107
 
 
  2975 0064 02F58062 		add	r2, r2, #1024
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3019              	.L241:
 1169:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3020              		.loc 1 1169 3 discriminator 2 view .LVU853
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 108
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 108
 
 
  3021 00aa 0428     		cmp	r0, #4
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3065              	.L248:
 1210:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
  3066              		.loc 1 1210 5 view .LVU864
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 109
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 109
 
 
 1210:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3113              	HAL_TIMEx_PWMN_Stop_IT:
  3114              	.LVL203:
  3115              	.LFB84:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 110
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 110
 
 
 1237:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   uint32_t tmpccer;
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3157              		.loc 1 1275 6 is_stmt 0 view .LVU887
  3158 0020 40F24442 		movw	r2, #1092
  3159 0024 1142     		tst	r1, r2
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 111
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 111
 
 
  3160 0026 03D1     		bne	.L264
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1284:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3203              		.loc 1 1284 3 discriminator 5 view .LVU899
 1287:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 112
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 112
 
 
  3204              		.loc 1 1287 3 discriminator 5 view .LVU900
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1287:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3247              		.loc 1 1287 3 discriminator 7 view .LVU912
  3248 00a4 0123     		movs	r3, #1
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 113
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 113
 
 
  3249 00a6 85F84530 		strb	r3, [r5, #69]
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3296              		.loc 1 1314 7 discriminator 1 view .LVU921
  3297 000c 90F84200 		ldrb	r0, [r0, #66]	@ zero_extendqisi2
  3298              	.LVL212:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 114
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 114
 
 
 1314:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1334:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  3340              		.loc 1 1334 3 is_stmt 1 view .LVU935
  3341 0046 042D     		cmp	r5, #4
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 115
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 115
 
 
  3342 0048 00F08B80 		beq	.L290
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3386              	.L276:
 1314:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  3387              		.loc 1 1314 46 discriminator 2 view .LVU946
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 116
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 116
 
 
  3388 009c 0429     		cmp	r1, #4
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3431              		.loc 1 1318 51 discriminator 2 view .LVU957
  3432 00d4 042D     		cmp	r5, #4
  3433 00d6 09D0     		beq	.L307
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 117
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 117
 
 
 1318:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3477 010e 95D0     		beq	.L285
 1322:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
  3478              		.loc 1 1322 14 view .LVU969
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 118
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 118
 
 
  3479 0110 0120     		movs	r0, #1
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3519 0140 626A     		ldr	r2, [r4, #36]
 1343:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3520              		.loc 1 1343 53 view .LVU984
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 119
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 119
 
 
  3521 0142 2D49     		ldr	r1, .L311+12
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3560 016e A26A     		ldr	r2, [r4, #40]
 1363:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3561              		.loc 1 1363 53 view .LVU1000
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 120
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 120
 
 
  3562 0170 2149     		ldr	r1, .L311+12
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3601 019c E26A     		ldr	r2, [r4, #44]
 1383:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3602              		.loc 1 1383 53 view .LVU1016
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 121
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 121
 
 
  3603 019e 1649     		ldr	r1, .L311+12
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3643              	.LVL237:
  3644              	.L295:
 1316:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 122
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 122
 
 
  3645              		.loc 1 1316 12 view .LVU1031
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1436:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Check the parameters */
  3695              		.loc 1 1436 1 is_stmt 1 view -0
  3696              		.cfi_startproc
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 123
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 123
 
 
  3697              		@ args = 0, pretend = 0, frame = 0
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1477:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3742              		.loc 1 1477 3 discriminator 5 view .LVU1048
 1477:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 124
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 124
 
 
  3743              		.loc 1 1477 3 discriminator 5 view .LVU1049
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3785 0072 CDE7     		b	.L316
  3786              	.LVL248:
  3787              	.L314:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 125
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 125
 
 
 1453:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       (void)HAL_DMA_Abort_IT(htim->hdma[TIM_DMA_ID_CC2]);
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3829              	.L325:
 1480:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3830              		.loc 1 1480 3 discriminator 3 view .LVU1075
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 126
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 126
 
 
  3831 00a8 0123     		movs	r3, #1
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1522:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3879              		.loc 1 1522 3 is_stmt 1 discriminator 12 view .LVU1084
 1522:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 127
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 127
 
 
  3880              		.loc 1 1522 54 is_stmt 0 discriminator 12 view .LVU1085
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  3920 0038 FFF7FEFF 		bl	TIM_CCxNChannelCmd
  3921              	.LVL262:
 1540:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 128
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 128
 
 
  3922              		.loc 1 1540 3 is_stmt 1 view .LVU1100
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1522:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3965              		.loc 1 1522 54 discriminator 4 view .LVU1112
  3966 0072 C0B2     		uxtb	r0, r0
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 129
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 129
 
 
  3967 0074 D0E7     		b	.L331
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4009              		.loc 1 1536 3 discriminator 7 view .LVU1124
  4010 00a0 0222     		movs	r2, #2
  4011 00a2 84F84120 		strb	r2, [r4, #65]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 130
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 130
 
 
  4012 00a6 C4E7     		b	.L340
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4060              	.L350:
  4061              	.LVL280:
 1564:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 131
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 131
 
 
  4062              		.loc 1 1564 3 is_stmt 1 discriminator 4 view .LVU1133
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4104              		.loc 1 1574 3 discriminator 1 view .LVU1145
  4105 004a 196A     		ldr	r1, [r3, #32]
  4106 004c 40F24442 		movw	r2, #1092
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 132
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 132
 
 
  4107 0050 1142     		tst	r1, r2
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1577:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, input_channel, HAL_TIM_CHANNEL_STATE_READY);
  4149              		.loc 1 1577 3 discriminator 3 view .LVU1158
  4150 0084 0123     		movs	r3, #1
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 133
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 133
 
 
  4151 0086 84F84330 		strb	r3, [r4, #67]
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4199 0004 0B46     		mov	r3, r1
  4200 0006 0029     		cmp	r1, #0
  4201 0008 31D0     		beq	.L366
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 134
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 134
 
 
  4202              	.LVL288:
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4241 0030 42D1     		bne	.L377
 1612:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  4242              		.loc 1 1612 3 is_stmt 0 discriminator 1 view .LVU1182
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 135
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 135
 
 
  4243 0032 0222     		movs	r2, #2
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4286 0072 D2B2     		uxtb	r2, r2
 1596:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef input_channel_state = TIM_CHANNEL_STATE_GET(htim, input_channel);
  4287              		.loc 1 1596 77 discriminator 4 view .LVU1194
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 136
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 136
 
 
  4288 0074 0425     		movs	r5, #4
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1611:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, input_channel, HAL_TIM_CHANNEL_STATE_BUSY);
  4331              		.loc 1 1611 3 discriminator 7 view .LVU1206
  4332 00a2 84F84520 		strb	r2, [r4, #69]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 137
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 137
 
 
  4333 00a6 C2E7     		b	.L374
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4378              		.thumb
  4379              		.thumb_func
  4380              		.fpu softvfp
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 138
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 138
 
 
  4382              	HAL_TIMEx_OnePulseN_Stop_IT:
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4426              	.LVL316:
 1656:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  4427              		.loc 1 1656 3 is_stmt 1 discriminator 4 view .LVU1227
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 139
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 139
 
 
  4428 002a 0022     		movs	r2, #0
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1665:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, input_channel, HAL_TIM_CHANNEL_STATE_READY);
  4471              		.loc 1 1665 3 is_stmt 0 discriminator 1 view .LVU1239
  4472 0072 0123     		movs	r3, #1
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 140
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 140
 
 
  4473 0074 84F84230 		strb	r3, [r4, #66]
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4515              		.loc 1 1666 3 discriminator 7 view .LVU1251
  4516 00aa 0123     		movs	r3, #1
  4517 00ac 84F84130 		strb	r3, [r4, #65]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 141
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 141
 
 
  4518 00b0 E6E7     		b	.L396
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4562              		.loc 1 1727 37 discriminator 1 view .LVU1263
  4563 0012 1029     		cmp	r1, #16
  4564 0014 03D0     		beq	.L405
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 142
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 142
 
 
 1727:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       (InputTrigger == TIM_TS_ITR2) || (InputTrigger == TIM_TS_ITR3))
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4603              		.loc 1 1739 3 is_stmt 1 view .LVU1279
 1739:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  4604              		.loc 1 1739 7 is_stmt 0 view .LVU1280
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 143
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 143
 
 
  4605 0044 0168     		ldr	r1, [r0]
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4648              		.align	1
  4649              		.global	HAL_TIMEx_ConfigCommutEvent_IT
  4650              		.syntax unified
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 144
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 144
 
 
  4651              		.thumb
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4692              		.loc 1 1787 5 is_stmt 1 view .LVU1306
 1787:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     htim->Instance->SMCR |= InputTrigger;
  4693              		.loc 1 1787 9 is_stmt 0 view .LVU1307
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 145
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 145
 
 
  4694 001e 0468     		ldr	r4, [r0]
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4732              		.loc 1 1798 3 is_stmt 1 view .LVU1323
  4733 004c 0268     		ldr	r2, [r0]
  4734 004e D368     		ldr	r3, [r2, #12]
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 146
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 146
 
 
  4735 0050 23F40053 		bic	r3, r3, #8192
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4781              		@ frame_needed = 0, uses_anonymous_args = 0
  4782              		@ link register save eliminated.
 1835:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   assert_param(IS_TIM_INTERNAL_TRIGGEREVENT_SELECTION(InputTrigger));
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 147
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 147
 
 
  4783              		.loc 1 1835 3 view .LVU1334
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4821 0028 0468     		ldr	r4, [r0]
 1845:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
  4822              		.loc 1 1845 26 view .LVU1351
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 148
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 148
 
 
  4823 002a A368     		ldr	r3, [r4, #8]
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
 1857:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Set the DMA error callback */
  4861              		.loc 1 1857 60 view .LVU1368
  4862 0054 0C4A     		ldr	r2, .L430+4
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 149
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 149
 
 
  4863 0056 DA62     		str	r2, [r3, #44]
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4904              	.L430:
  4905 0084 00000000 		.word	TIMEx_DMACommutationCplt
  4906 0088 00000000 		.word	TIMEx_DMACommutationHalfCplt
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 150
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 150
 
 
  4907 008c 00000000 		.word	TIM_DMAError
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4950 0012 80F83D30 		strb	r3, [r0, #61]
 1898:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  4951              		.loc 1 1898 3 is_stmt 1 discriminator 2 view .LVU1395
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 151
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 151
 
 
 1898:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  4989 003a 03D0     		beq	.L434
 1911:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  4990              		.loc 1 1911 7 discriminator 3 view .LVU1413
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 152
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 152
 
 
  4991 003c 02F58062 		add	r2, r2, #1024
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  5029              		.loc 1 1928 1 view .LVU1429
  5030 005e 7047     		bx	lr
  5031              	.LVL348:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 153
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 153
 
 
  5032              	.L436:
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  5074 0006 22D0     		beq	.L445
 1958:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  5075              		.loc 1 1958 3 discriminator 2 view .LVU1444
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 154
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 154
 
 
  5076 0008 0123     		movs	r3, #1
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  5116              		.loc 1 1969 3 is_stmt 1 discriminator 2 view .LVU1458
  5117 0030 23F40053 		bic	r3, r3, #8192
  5118              	.LVL363:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 155
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 155
 
 
 1969:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_AOE, sBreakDeadTimeConfig->AutomaticOutput);
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  5157              	.LVL373:
 1979:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  5158              		.loc 1 1979 1 view .LVU1475
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 156
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 156
 
 
  5159 0050 7047     		bx	lr
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  5208 0000 7047     		bx	lr
  5209              		.cfi_endproc
  5210              	.LFE97:
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 157
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 157
 
 
  5212              		.section	.text.TIMEx_DMACommutationCplt,"ax",%progbits
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  5260              		.loc 1 2037 1 is_stmt 1 view -0
  5261              		.cfi_startproc
  5262              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 158
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 158
 
 
  5263              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  5310              		.weak	HAL_TIMEx_BreakCallback
  5311              		.syntax unified
  5312              		.thumb
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 159
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 159
 
 
  5313              		.thumb_func
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  5365              	.LFB101:
 2100:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef channel_state;
  5366              		.loc 1 2100 1 is_stmt 1 view -0
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 160
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 160
 
 
  5367              		.cfi_startproc
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  5407              	.LVL394:
  5408              	.L461:
 2106:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 161
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 161
 
 
  5409              		.loc 1 2106 19 discriminator 7 view .LVU1526
@@ -9623,109 +9623,109 @@ ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 1
  5428              		.file 10 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h"
  5429              		.file 11 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h"
  5430              		.file 12 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 162
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 162
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f1xx_hal_tim_ex.c
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:16     .text.TIM_CCxNChannelCmd:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:23     .text.TIM_CCxNChannelCmd:00000000 TIM_CCxNChannelCmd
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:71     .text.TIM_DMAErrorCCxN:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:77     .text.TIM_DMAErrorCCxN:00000000 TIM_DMAErrorCCxN
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:157    .text.TIM_DMADelayPulseNCplt:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:163    .text.TIM_DMADelayPulseNCplt:00000000 TIM_DMADelayPulseNCplt
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:283    .text.HAL_TIMEx_HallSensor_MspInit:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:290    .text.HAL_TIMEx_HallSensor_MspInit:00000000 HAL_TIMEx_HallSensor_MspInit
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:305    .text.HAL_TIMEx_HallSensor_Init:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:312    .text.HAL_TIMEx_HallSensor_Init:00000000 HAL_TIMEx_HallSensor_Init
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:518    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:525    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 HAL_TIMEx_HallSensor_MspDeInit
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:540    .text.HAL_TIMEx_HallSensor_DeInit:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:547    .text.HAL_TIMEx_HallSensor_DeInit:00000000 HAL_TIMEx_HallSensor_DeInit
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:617    .text.HAL_TIMEx_HallSensor_Start:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:624    .text.HAL_TIMEx_HallSensor_Start:00000000 HAL_TIMEx_HallSensor_Start
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:772    .text.HAL_TIMEx_HallSensor_Start:00000098 $d
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:777    .text.HAL_TIMEx_HallSensor_Stop:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:784    .text.HAL_TIMEx_HallSensor_Stop:00000000 HAL_TIMEx_HallSensor_Stop
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:843    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:850    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 HAL_TIMEx_HallSensor_Start_IT
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1006   .text.HAL_TIMEx_HallSensor_Start_IT:000000a4 $d
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1011   .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1018   .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 HAL_TIMEx_HallSensor_Stop_IT
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1082   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1089   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 HAL_TIMEx_HallSensor_Start_DMA
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1269   .text.HAL_TIMEx_HallSensor_Start_DMA:000000b8 $d
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1277   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1284   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 HAL_TIMEx_HallSensor_Stop_DMA
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1349   .text.HAL_TIMEx_OCN_Start:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1356   .text.HAL_TIMEx_OCN_Start:00000000 HAL_TIMEx_OCN_Start
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1528   .text.HAL_TIMEx_OCN_Start:000000d0 $d
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1533   .text.HAL_TIMEx_OCN_Stop:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1540   .text.HAL_TIMEx_OCN_Stop:00000000 HAL_TIMEx_OCN_Stop
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1637   .text.HAL_TIMEx_OCN_Start_IT:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1644   .text.HAL_TIMEx_OCN_Start_IT:00000000 HAL_TIMEx_OCN_Start_IT
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1854   .text.HAL_TIMEx_OCN_Start_IT:0000010c $d
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1859   .text.HAL_TIMEx_OCN_Stop_IT:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:1866   .text.HAL_TIMEx_OCN_Stop_IT:00000000 HAL_TIMEx_OCN_Stop_IT
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:2018   .text.HAL_TIMEx_OCN_Start_DMA:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:2025   .text.HAL_TIMEx_OCN_Start_DMA:00000000 HAL_TIMEx_OCN_Start_DMA
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:2430   .text.HAL_TIMEx_OCN_Start_DMA:000001ec $d
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:2438   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:2445   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 HAL_TIMEx_OCN_Stop_DMA
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:2596   .text.HAL_TIMEx_PWMN_Start:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:2603   .text.HAL_TIMEx_PWMN_Start:00000000 HAL_TIMEx_PWMN_Start
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:2775   .text.HAL_TIMEx_PWMN_Start:000000d0 $d
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:2780   .text.HAL_TIMEx_PWMN_Stop:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:2787   .text.HAL_TIMEx_PWMN_Stop:00000000 HAL_TIMEx_PWMN_Stop
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:2884   .text.HAL_TIMEx_PWMN_Start_IT:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:2891   .text.HAL_TIMEx_PWMN_Start_IT:00000000 HAL_TIMEx_PWMN_Start_IT
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:3101   .text.HAL_TIMEx_PWMN_Start_IT:0000010c $d
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:3106   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:3113   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 HAL_TIMEx_PWMN_Stop_IT
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:3265   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 $t
-ARM GAS  C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s 			page 163
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:16     .text.TIM_CCxNChannelCmd:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:23     .text.TIM_CCxNChannelCmd:00000000 TIM_CCxNChannelCmd
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:71     .text.TIM_DMAErrorCCxN:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:77     .text.TIM_DMAErrorCCxN:00000000 TIM_DMAErrorCCxN
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:157    .text.TIM_DMADelayPulseNCplt:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:163    .text.TIM_DMADelayPulseNCplt:00000000 TIM_DMADelayPulseNCplt
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:283    .text.HAL_TIMEx_HallSensor_MspInit:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:290    .text.HAL_TIMEx_HallSensor_MspInit:00000000 HAL_TIMEx_HallSensor_MspInit
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:305    .text.HAL_TIMEx_HallSensor_Init:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:312    .text.HAL_TIMEx_HallSensor_Init:00000000 HAL_TIMEx_HallSensor_Init
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:518    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:525    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 HAL_TIMEx_HallSensor_MspDeInit
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:540    .text.HAL_TIMEx_HallSensor_DeInit:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:547    .text.HAL_TIMEx_HallSensor_DeInit:00000000 HAL_TIMEx_HallSensor_DeInit
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:617    .text.HAL_TIMEx_HallSensor_Start:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:624    .text.HAL_TIMEx_HallSensor_Start:00000000 HAL_TIMEx_HallSensor_Start
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:772    .text.HAL_TIMEx_HallSensor_Start:00000098 $d
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:777    .text.HAL_TIMEx_HallSensor_Stop:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:784    .text.HAL_TIMEx_HallSensor_Stop:00000000 HAL_TIMEx_HallSensor_Stop
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:843    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:850    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 HAL_TIMEx_HallSensor_Start_IT
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1006   .text.HAL_TIMEx_HallSensor_Start_IT:000000a4 $d
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1011   .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1018   .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 HAL_TIMEx_HallSensor_Stop_IT
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1082   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1089   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 HAL_TIMEx_HallSensor_Start_DMA
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1269   .text.HAL_TIMEx_HallSensor_Start_DMA:000000b8 $d
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1277   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1284   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 HAL_TIMEx_HallSensor_Stop_DMA
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1349   .text.HAL_TIMEx_OCN_Start:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1356   .text.HAL_TIMEx_OCN_Start:00000000 HAL_TIMEx_OCN_Start
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1528   .text.HAL_TIMEx_OCN_Start:000000d0 $d
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1533   .text.HAL_TIMEx_OCN_Stop:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1540   .text.HAL_TIMEx_OCN_Stop:00000000 HAL_TIMEx_OCN_Stop
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1637   .text.HAL_TIMEx_OCN_Start_IT:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1644   .text.HAL_TIMEx_OCN_Start_IT:00000000 HAL_TIMEx_OCN_Start_IT
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1854   .text.HAL_TIMEx_OCN_Start_IT:0000010c $d
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1859   .text.HAL_TIMEx_OCN_Stop_IT:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:1866   .text.HAL_TIMEx_OCN_Stop_IT:00000000 HAL_TIMEx_OCN_Stop_IT
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:2018   .text.HAL_TIMEx_OCN_Start_DMA:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:2025   .text.HAL_TIMEx_OCN_Start_DMA:00000000 HAL_TIMEx_OCN_Start_DMA
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:2430   .text.HAL_TIMEx_OCN_Start_DMA:000001ec $d
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:2438   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:2445   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 HAL_TIMEx_OCN_Stop_DMA
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:2596   .text.HAL_TIMEx_PWMN_Start:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:2603   .text.HAL_TIMEx_PWMN_Start:00000000 HAL_TIMEx_PWMN_Start
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:2775   .text.HAL_TIMEx_PWMN_Start:000000d0 $d
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:2780   .text.HAL_TIMEx_PWMN_Stop:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:2787   .text.HAL_TIMEx_PWMN_Stop:00000000 HAL_TIMEx_PWMN_Stop
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:2884   .text.HAL_TIMEx_PWMN_Start_IT:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:2891   .text.HAL_TIMEx_PWMN_Start_IT:00000000 HAL_TIMEx_PWMN_Start_IT
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:3101   .text.HAL_TIMEx_PWMN_Start_IT:0000010c $d
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:3106   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:3113   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 HAL_TIMEx_PWMN_Stop_IT
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:3265   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 $t
+ARM GAS  C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s 			page 163
 
 
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:3272   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 HAL_TIMEx_PWMN_Start_DMA
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:3677   .text.HAL_TIMEx_PWMN_Start_DMA:000001ec $d
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:3685   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:3692   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 HAL_TIMEx_PWMN_Stop_DMA
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:3843   .text.HAL_TIMEx_OnePulseN_Start:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:3850   .text.HAL_TIMEx_OnePulseN_Start:00000000 HAL_TIMEx_OnePulseN_Start
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4031   .text.HAL_TIMEx_OnePulseN_Stop:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4038   .text.HAL_TIMEx_OnePulseN_Stop:00000000 HAL_TIMEx_OnePulseN_Stop
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4174   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4181   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 HAL_TIMEx_OnePulseN_Start_IT
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4375   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4382   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 HAL_TIMEx_OnePulseN_Stop_IT
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4528   .text.HAL_TIMEx_ConfigCommutEvent:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4535   .text.HAL_TIMEx_ConfigCommutEvent:00000000 HAL_TIMEx_ConfigCommutEvent
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4648   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4655   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000000 HAL_TIMEx_ConfigCommutEvent_IT
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4768   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4775   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000000 HAL_TIMEx_ConfigCommutEvent_DMA
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4905   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000084 $d
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5220   .text.TIMEx_DMACommutationCplt:00000000 TIMEx_DMACommutationCplt
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5279   .text.TIMEx_DMACommutationHalfCplt:00000000 TIMEx_DMACommutationHalfCplt
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4912   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:4919   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 HAL_TIMEx_MasterConfigSynchronization
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5041   .text.HAL_TIMEx_MasterConfigSynchronization:00000064 $d
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5046   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5053   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 HAL_TIMEx_ConfigBreakDeadTime
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5164   .text.HAL_TIMEx_RemapConfig:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5171   .text.HAL_TIMEx_RemapConfig:00000000 HAL_TIMEx_RemapConfig
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5191   .text.HAL_TIMEx_CommutCallback:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5198   .text.HAL_TIMEx_CommutCallback:00000000 HAL_TIMEx_CommutCallback
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5213   .text.TIMEx_DMACommutationCplt:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5250   .text.HAL_TIMEx_CommutHalfCpltCallback:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5257   .text.HAL_TIMEx_CommutHalfCpltCallback:00000000 HAL_TIMEx_CommutHalfCpltCallback
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5272   .text.TIMEx_DMACommutationHalfCplt:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5309   .text.HAL_TIMEx_BreakCallback:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5316   .text.HAL_TIMEx_BreakCallback:00000000 HAL_TIMEx_BreakCallback
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5331   .text.HAL_TIMEx_HallSensor_GetState:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5338   .text.HAL_TIMEx_HallSensor_GetState:00000000 HAL_TIMEx_HallSensor_GetState
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5356   .text.HAL_TIMEx_GetChannelNState:00000000 $t
-C:\Users\arada\AppData\Local\Temp\cc6QHtNS.s:5363   .text.HAL_TIMEx_GetChannelNState:00000000 HAL_TIMEx_GetChannelNState
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:3272   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 HAL_TIMEx_PWMN_Start_DMA
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:3677   .text.HAL_TIMEx_PWMN_Start_DMA:000001ec $d
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:3685   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:3692   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 HAL_TIMEx_PWMN_Stop_DMA
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:3843   .text.HAL_TIMEx_OnePulseN_Start:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:3850   .text.HAL_TIMEx_OnePulseN_Start:00000000 HAL_TIMEx_OnePulseN_Start
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4031   .text.HAL_TIMEx_OnePulseN_Stop:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4038   .text.HAL_TIMEx_OnePulseN_Stop:00000000 HAL_TIMEx_OnePulseN_Stop
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4174   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4181   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 HAL_TIMEx_OnePulseN_Start_IT
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4375   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4382   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 HAL_TIMEx_OnePulseN_Stop_IT
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4528   .text.HAL_TIMEx_ConfigCommutEvent:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4535   .text.HAL_TIMEx_ConfigCommutEvent:00000000 HAL_TIMEx_ConfigCommutEvent
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4648   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4655   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000000 HAL_TIMEx_ConfigCommutEvent_IT
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4768   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4775   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000000 HAL_TIMEx_ConfigCommutEvent_DMA
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4905   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000084 $d
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5220   .text.TIMEx_DMACommutationCplt:00000000 TIMEx_DMACommutationCplt
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5279   .text.TIMEx_DMACommutationHalfCplt:00000000 TIMEx_DMACommutationHalfCplt
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4912   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:4919   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 HAL_TIMEx_MasterConfigSynchronization
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5041   .text.HAL_TIMEx_MasterConfigSynchronization:00000064 $d
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5046   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5053   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 HAL_TIMEx_ConfigBreakDeadTime
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5164   .text.HAL_TIMEx_RemapConfig:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5171   .text.HAL_TIMEx_RemapConfig:00000000 HAL_TIMEx_RemapConfig
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5191   .text.HAL_TIMEx_CommutCallback:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5198   .text.HAL_TIMEx_CommutCallback:00000000 HAL_TIMEx_CommutCallback
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5213   .text.TIMEx_DMACommutationCplt:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5250   .text.HAL_TIMEx_CommutHalfCpltCallback:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5257   .text.HAL_TIMEx_CommutHalfCpltCallback:00000000 HAL_TIMEx_CommutHalfCpltCallback
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5272   .text.TIMEx_DMACommutationHalfCplt:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5309   .text.HAL_TIMEx_BreakCallback:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5316   .text.HAL_TIMEx_BreakCallback:00000000 HAL_TIMEx_BreakCallback
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5331   .text.HAL_TIMEx_HallSensor_GetState:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5338   .text.HAL_TIMEx_HallSensor_GetState:00000000 HAL_TIMEx_HallSensor_GetState
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5356   .text.HAL_TIMEx_GetChannelNState:00000000 $t
+C:\Users\arada\AppData\Local\Temp\ccJSfcWd.s:5363   .text.HAL_TIMEx_GetChannelNState:00000000 HAL_TIMEx_GetChannelNState
 
 UNDEFINED SYMBOLS
 HAL_TIM_ErrorCallback
