@@ -29,6 +29,9 @@
 #include "dac_sw/dac_sw.h"
 #include "ssd1306/ssd1306.h"
 
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+
+uint32_t itt = 0;
 extern uint32_t millis(void);
 /*************************************************************************
  * Function Name: Timer1IntrHandler
@@ -43,7 +46,21 @@ void Timer1IntrHandler(void)
 {
   // Clear update interrupt bit
   TIM_ClearITPendingBit(TIM1,TIM_FLAG_Update);
+  
+  /*printf(%i/r/n , adc_read(1));
+  
+  dac1.value = 0x0fff * (itt + 0 % 3);
+  dac2.value = 0x0fff * (itt + 1 % 3);
+  dac3.value = 0x0fff * (itt + 2 % 3);
+  dac1.update();
+  dac2.update();
+  dac3.update();*/
+  itt++;
 }
+
+void usart_init(void);
+void adc_init(void);
+uint16_t adc_read(bool wait);
 
 void main(void)
 {
@@ -122,6 +139,8 @@ void main(void)
   __enable_interrupt();
   
   // SETUP
+  adc_init();
+  
   dac dac1(DAC_1_GPIO_Port ,DAC_1_Pin ,SCK_GPIO_Port ,SCK_Pin ,SDI_GPIO_Port ,SDI_Pin);
   dac dac2(DAC_1_GPIO_Port ,DAC_1_Pin ,SCK_GPIO_Port ,SCK_Pin ,SDI_GPIO_Port ,SDI_Pin);
   dac dac3(DAC_1_GPIO_Port ,DAC_1_Pin ,SCK_GPIO_Port ,SCK_Pin ,SDI_GPIO_Port ,SDI_Pin);
@@ -132,10 +151,83 @@ void main(void)
   dac1.update();
   dac2.update();
   dac3.update();
-  printf("%i/r/n" , millis());
   
   while(1)
   {
     printf("%i/r/n" , millis());
   }
+}
+  
+void adc_init()
+{
+  ADC_InitTypeDef hadc1;
+  hadc1.ADC_Mode                = ADC_Mode_Independent;
+  hadc1.ADC_ScanConvMode        = DISABLE;
+  hadc1.ADC_ContinuousConvMode  = DISABLE;
+  hadc1.ADC_ExternalTrigConv    = ADC_ExternalTrigInjecConv_None;
+  hadc1.ADC_DataAlign           = ADC_DataAlign_Right;
+  hadc1.ADC_NbrOfChannel        = 1;
+  
+  ADC_Init(ADC1 ,&hadc1);
+  ADC_RegularChannelConfig(ADC1, ADC_Channel_0, 1, ADC_SampleTime_239Cycles5);
+  ADC_TempSensorVrefintCmd(ENABLE);
+  ADC_Cmd(ADC1, ENABLE);
+  ADC_ResetCalibration(ADC1);
+  while(ADC_GetResetCalibrationStatus(ADC1));
+  ADC_StartCalibration(ADC1);  
+  while(ADC_GetCalibrationStatus(ADC1));
+}
+
+uint16_t adc_read(bool wait)
+{
+  ADC_SoftwareStartConvCmd(ADC1, ENABLE);
+  while((!ADC_GetFlagStatus(ADC1, ADC_FLAG_EOC))*wait);
+  ADC_ClearFlag(ADC1, ADC_FLAG_EOC);
+  uint16_t AD_value = ADC_GetConversionValue(ADC1);
+  return AD_value;
+}
+
+void usart1_init(void)
+{
+  USART_InitTypeDef huart1;
+  huart1.USART_BaudRate                 = 115200;
+  huart1.USART_WordLength               = USART_WordLength_8b;
+  huart1.USART_StopBits                 = USART_StopBits_1;
+  huart1.USART_Parity                   = USART_Parity_No;
+  huart1.USART_Mode                     = USART_Mode_Rx | USART_Mode_Tx;
+  huart1.USART_HardwareFlowControl      = USART_HardwareFlowControl_None;
+  
+  USART_Init(USART1 ,&huart1);
+  USART_Cmd(USART1, ENABLE);
+}
+
+void usart2_init(void)
+{
+  USART_InitTypeDef huart2;
+  huart2.USART_BaudRate                 = 115200;
+  huart2.USART_WordLength               = USART_WordLength_8b;
+  huart2.USART_StopBits                 = USART_StopBits_1;
+  huart2.USART_Parity                   = USART_Parity_No;
+  huart2.USART_Mode                     = USART_Mode_Rx | USART_Mode_Tx;
+  huart2.USART_HardwareFlowControl      = USART_HardwareFlowControl_None;
+  
+  USART_Init(USART2 ,&huart2);
+  USART_Cmd(USART2, ENABLE);
+}
+
+int _write(int fd, char * ptr, int len)                                                                         //not sure
+{
+  int tlen = len;
+  while(tlen > 0)
+  {
+    USART_SendData(USART2, *((uint8_t *) ptr++));
+    while(USART_GetFlagStatus(USART2, USART_FLAG_TXE) == RESET)
+    tlen--;
+  }
+  return len;
+}
+PUTCHAR_PROTOTYPE
+{
+  USART_SendData(USART2, (uint8_t)ch);
+  return ch;
 }

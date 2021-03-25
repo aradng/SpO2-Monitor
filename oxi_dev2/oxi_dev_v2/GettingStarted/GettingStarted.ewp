@@ -94,7 +94,7 @@
                 </option>
                 <option>
                     <name>GenStdoutInterface</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>GeneralMisraRules98</name>
@@ -644,7 +644,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state></state>
+                    <state>GettingStarted.srec</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
