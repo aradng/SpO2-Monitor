@@ -1,12 +1,12 @@
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armproc.dll" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armstlink2.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armstlink2.dll" 
 
-"C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Exe\GettingStarted.out" 
+"C:\Users\Z.Toorani\Desktop\arad\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Exe\GettingStarted.out" 
 
---plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armbat.dll" 
 
---device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\debugger\ST\STM32F1xx_XL.dmac" 
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\config\debugger\ST\STM32F1xx.dmac" 
 
 
 

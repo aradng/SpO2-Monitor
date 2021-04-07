@@ -32,6 +32,7 @@
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 
 uint32_t itt = 0;
+uint16_t data[3][10000];
 extern uint32_t millis(void);
 /*************************************************************************
  * Function Name: Timer1IntrHandler
@@ -48,14 +49,28 @@ void Timer1IntrHandler(void)
   TIM_ClearITPendingBit(TIM1,TIM_FLAG_Update);
   
   /*printf(%i/r/n , adc_read(1));
-  
+  //data[itt % 3][itt / 3]  = adc_read(0);
   dac1.value = 0x0fff * (itt + 0 % 3);
   dac2.value = 0x0fff * (itt + 1 % 3);
   dac3.value = 0x0fff * (itt + 2 % 3);
   dac1.update();
   dac2.update();
-  dac3.update();*/
+  dac3.update();
+*/
   itt++;
+  if(itt >= 30000)                    //ble data
+  {
+    /*printf("/r/nR:/r/n");
+      for(int i = 0 ; i < itt/3 ; i++)
+        printf("%i ", data[0][i]);
+    printf("/r/nIR:/r/n");
+      for(int i = 0 ; i < itt/3 ; i++)
+        printf("%i ", data[0][i]);
+    printf("/r/nG:/r/n");
+      for(int i = 0 ; i < itt/3 ; i++)
+        printf("%i ", data[0][i]);*/
+  itt = 0;
+  }
 }
 
 void usart_init(void);
