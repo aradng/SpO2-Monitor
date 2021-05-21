@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\settings\GettingStarted.RAM_Debug.general.xcl" --backend -f "C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\settings\GettingStarted.RAM_Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "C:\Users\Z.Toorani\Desktop\arad\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\settings\GettingStarted.RAM_Debug.general.xcl" --backend -f "C:\Users\Z.Toorani\Desktop\arad\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\settings\GettingStarted.RAM_Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\settings\GettingStarted.RAM_Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\settings\GettingStarted.RAM_Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "C:\Users\Z.Toorani\Desktop\arad\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\settings\GettingStarted.RAM_Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Z.Toorani\Desktop\arad\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\settings\GettingStarted.RAM_Debug.driver.xcl" 
 
 @echo off 
 :end
