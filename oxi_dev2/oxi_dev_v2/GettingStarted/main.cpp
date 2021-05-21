@@ -215,15 +215,16 @@ void usart2_init(void)
   USART_Cmd(USART2, ENABLE);
 }
 
-int _write(int fd, char * ptr, int len)                                                                         //not sure
+int _write(int fd, char * ptr, int len)                                                                         //not sure                      test putchar/write with full std lib
 {
   int tlen = len;
-  while(tlen > 0)
-  {
-    USART_SendData(USART2, *((uint8_t *) ptr++));
-    while(USART_GetFlagStatus(USART2, USART_FLAG_TXE) == RESET)
-    tlen--;
-  }
+  //if(fd == 0)                                                                                                 //fd 0 : stdin || 1 : stdout  || 2 : stderr
+    while(tlen > 0)
+    {
+      USART_SendData(USART2, *((uint8_t *) ptr++));
+      while(USART_GetFlagStatus(USART2, USART_FLAG_TXE) == RESET)
+      tlen--;
+    }
   return len;
 }
 PUTCHAR_PROTOTYPE

@@ -1,10 +1,10 @@
 ﻿C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\GettingStarted.pbd
+C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\system_stm32f10x.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\dac_sw.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\i2c_sw.pbi
-C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\main.pbi
-C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\misc.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\ssd1306.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\ssd1306_fonts.pbi
+C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\misc.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_adc.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_bkp.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_can.pbi
@@ -17,7 +17,6 @@ C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingS
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_fsmc.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_gpio.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_i2c.pbi
-C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_it.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_iwdg.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_pwr.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_rcc.pbi
@@ -27,4 +26,5 @@ C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingS
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_tim.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_usart.pbi
 C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_wwdg.pbi
-C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\system_stm32f10x.pbi
+C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\stm32f10x_it.pbi
+C:\Users\arada\Documents\Projects\Work\SpO2-Monitor\oxi_dev2\oxi_dev_v2\GettingStarted\RAM Debug\Obj\main.pbi
